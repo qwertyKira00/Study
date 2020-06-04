@@ -179,7 +179,7 @@ Disassembly of section .text:
     11d5:	f2 0f 11 45 d8       	movsd  %xmm0,-0x28(%rbp)    ;Копирование пармеметров (a, b, c) в следующие доступные слоты локальных переменных
     11da:	f2 0f 11 4d d0       	movsd  %xmm1,-0x30(%rbp)    ; на 28/30/38 ниже %rbp (указателя на стек)
     11df:	f2 0f 11 55 c8       	movsd  %xmm2,-0x38(%rbp)    ;movsd - MOVE SCALAR(Bottom) DOUBLE. Данные инструкции поддерживают только запись вида XMM-to-MEMORY и MEMORY-to-XMM.
-    11e4:	66 0f ef c0          	pxor   %xmm0,%xmm0          
+    11e4:	66 0f ef c0          	pxor   %xmm0,%xmm0          ;DOUBLE обозначаtn FP64 числа
     
     ;UCOMISD - Неупорядоченное скалярное сравнение Double с установкой флагов в EFLAGS
     ;В случае работы со скалярными значениями используется нижний SINGLE или DOUBLE
