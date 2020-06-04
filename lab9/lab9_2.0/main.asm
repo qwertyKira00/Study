@@ -1,3 +1,14 @@
+;По умолчанию команда disassemble выводит инструкции в синтаксисе AT&T, который совпадает с синтаксисом, используемым ассемблером GNU.
+;Синтаксис AT&T имеет формат: mnemonic source, destination
+
+;SSE - расширение; усовершенствование FPU
+;Регистры SSE называются XMM и наличествуют XMM0-XMM7 для 32-битного Protected Mode и дополнительными XMM8-XMM15 для режима 64-битного Long Mode.
+;Все регистры XMM-регистры 128-битные, но максимальный размер данных, над которым можно совершать операции это FP64-числа. 
+;Последнее обусловлено предназначением данного расширения – параллельная обработка данных.
+
+;XMM-регистры могут быть разделены на два 64-битных FP64 числа или четыре 32-битные FP32 числа.
+;В данном случае SINGLE и DOUBLE обозначают FP32 и FP64 соответственно
+
 hd:     file format elf64-x86-64
 
 
@@ -146,17 +157,35 @@ Disassembly of section .text:
     11c0:	f3 0f 1e fa          	endbr64 
     11c4:	e9 77 ff ff ff       	jmpq   1140 <register_tm_clones>
 
-00000000000011c9 <solution>:
+00000000000011c9 <solution>:                                            ;Дизассемблирование функции solution
     11c9:	f3 0f 1e fa          	endbr64 
+    
+    ;%rbp и %rsp — специальные регистры. Регистр %rbp — это указатель базы, который указывает на базу текущего стека, 
+    ;а %rsp — указатель стека, который указывает на вершину текущего стека. 
+    ;Регистр %rbp всегда имеет большее значение нежели %rsp, потому что стек всегда начинается со старшего адреса памяти и растет в сторону младших адресов. 
+    
     11cd:	55                   	push   %rbp
     11ce:	48 89 e5             	mov    %rsp,%rbp
+    ;Первые две инструкции называются прологом функции или преамбулой. 
+    ;Первым делом записываем старый указатель базы в стек, чтобы сохранить его на будущее. 
+    ;Потом копируем значение указателя стека в указатель базы. 
+    ;После этого %rbp указывает на базовый сегмент стекового фрейма функции solution.
+    
     11d1:	48 83 ec 40          	sub    $0x40,%rsp
-    11d5:	f2 0f 11 45 d8       	movsd  %xmm0,-0x28(%rbp)
-    11da:	f2 0f 11 4d d0       	movsd  %xmm1,-0x30(%rbp)
-    11df:	f2 0f 11 55 c8       	movsd  %xmm2,-0x38(%rbp)
-    11e4:	66 0f ef c0          	pxor   %xmm0,%xmm0
+    ;Вычитание 0x40 (40 в 16-ричной) из указателя на вершину стека. 
+    ;Поскольку стек растет вниз, то вычитание 40 из указателя стека перемещает нас к 
+    ;собственно области, где хранится локальная переменная
+    
+    11d5:	f2 0f 11 45 d8       	movsd  %xmm0,-0x28(%rbp)    ;Копирование пармеметров (a, b, c) в следующие доступные слоты локальных переменных
+    11da:	f2 0f 11 4d d0       	movsd  %xmm1,-0x30(%rbp)    ; на 28/30/38 ниже %rbp (указателя на стек)
+    11df:	f2 0f 11 55 c8       	movsd  %xmm2,-0x38(%rbp)    ;movsd - MOVE SCALAR(Bottom) DOUBLE. Данные инструкции поддерживают только запись вида XMM-to-MEMORY и MEMORY-to-XMM.
+    11e4:	66 0f ef c0          	pxor   %xmm0,%xmm0          
+    
+    ;UCOMISD - Неупорядоченное скалярное сравнение Double с установкой флагов в EFLAGS
+    ;В случае работы со скалярными значениями используется нижний SINGLE или DOUBLE
+    ;(т.е. нижние 32 или 64-бита соответственно) XMM-регистров.
     11e8:	66 0f 2e 45 d8       	ucomisd -0x28(%rbp),%xmm0
-    11ed:	7a 32                	jp     1221 <solution+0x58>
+    11ed:	7a 32                	jp     1221 <solution+0x58> ;solution+88
     11ef:	66 0f ef c0          	pxor   %xmm0,%xmm0
     11f3:	66 0f 2e 45 d8       	ucomisd -0x28(%rbp),%xmm0
     11f8:	75 27                	jne    1221 <solution+0x58>
@@ -165,84 +194,90 @@ Disassembly of section .text:
     1203:	7a 1c                	jp     1221 <solution+0x58>
     1205:	66 0f ef c0          	pxor   %xmm0,%xmm0
     1209:	66 0f 2e 45 d0       	ucomisd -0x30(%rbp),%xmm0
-    120e:	75 11                	jne    1221 <solution+0x58>
+    120e:	75 11                	jne    1221 <solution+0x58>     ;Если a и b ≠ 0, продолжаем подпрограмму
     1210:	48 8d 3d f9 0d 00 00 	lea    0xdf9(%rip),%rdi        # 2010 <_IO_stdin_used+0x10>
-    1217:	e8 74 fe ff ff       	callq  1090 <puts@plt>
-    121c:	e9 43 01 00 00       	jmpq   1364 <solution+0x19b>
-    1221:	f2 0f 10 45 d0       	movsd  -0x30(%rbp),%xmm0
-    1226:	f2 0f 59 c0          	mulsd  %xmm0,%xmm0
-    122a:	f2 0f 10 55 d8       	movsd  -0x28(%rbp),%xmm2
+    1217:	e8 74 fe ff ff       	callq  1090 <puts@plt>          ;Иначе выводим сообщение 
+    121c:	e9 43 01 00 00       	jmpq   1364 <solution+0x19b>    ;И переходим к завершению подпрограммы
+    
+    1221:	f2 0f 10 45 d0       	movsd  -0x30(%rbp),%xmm0        ;%xmm0 = b
+    1226:	f2 0f 59 c0          	mulsd  %xmm0,%xmm0              ;%xmm0 = b * b
+    122a:	f2 0f 10 55 d8       	movsd  -0x28(%rbp),%xmm2        ;%xmm2 = a    
     122f:	f2 0f 10 0d 49 0e 00 	movsd  0xe49(%rip),%xmm1        # 2080 <_IO_stdin_used+0x80>
     1236:	00 
-    1237:	f2 0f 59 ca          	mulsd  %xmm2,%xmm1
-    123b:	f2 0f 59 4d c8       	mulsd  -0x38(%rbp),%xmm1
-    1240:	f2 0f 5c c1          	subsd  %xmm1,%xmm0
-    1244:	f2 0f 11 45 e0       	movsd  %xmm0,-0x20(%rbp)
+    1237:	f2 0f 59 ca          	mulsd  %xmm2,%xmm1              ;%xmm1 = 4 * a
+    123b:	f2 0f 59 4d c8       	mulsd  -0x38(%rbp),%xmm1        ;%xmm1 = 4 * a * c
+    1240:	f2 0f 5c c1          	subsd  %xmm1,%xmm0              ;%xmm0 = b * b - 4 * a * c (дискриминант = d)
+    1244:	f2 0f 11 45 e0       	movsd  %xmm0,-0x20(%rbp)        ;Кладем вычисленное значение d по адресу %rbp - 20
     1249:	f2 0f 10 45 e0       	movsd  -0x20(%rbp),%xmm0
     124e:	66 0f ef c9          	pxor   %xmm1,%xmm1
-    1252:	66 0f 2f c1          	comisd %xmm1,%xmm0
-    1256:	0f 86 9d 00 00 00    	jbe    12f9 <solution+0x130>
-    125c:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
-    1260:	66 48 0f 6e c0       	movq   %rax,%xmm0
-    1265:	e8 66 fe ff ff       	callq  10d0 <sqrt@plt>
-    126a:	66 0f 28 c8          	movapd %xmm0,%xmm1
-    126e:	f2 0f 10 45 d8       	movsd  -0x28(%rbp),%xmm0
-    1273:	f2 0f 58 c0          	addsd  %xmm0,%xmm0
-    1277:	f2 0f 5e c8          	divsd  %xmm0,%xmm1
-    127b:	66 0f 28 c1          	movapd %xmm1,%xmm0
-    127f:	f2 0f 5c 45 d0       	subsd  -0x30(%rbp),%xmm0
-    1284:	f2 0f 11 45 f0       	movsd  %xmm0,-0x10(%rbp)
-    1289:	f2 0f 10 45 d0       	movsd  -0x30(%rbp),%xmm0
+    1252:	66 0f 2f c1          	comisd %xmm1,%xmm0              ;Сравнение d с 0
+    1256:	0f 86 9d 00 00 00    	jbe    12f9 <solution+0x130>    ;Если d ≤ 0, переходим на 12f9, иначе вычисляем корни
+    125c:	48 8b 45 e0          	mov    -0x20(%rbp),%rax         ;Извлекаем d из %rbp - 20 и кладем в %rax
+                                                                    ;Первый корень
+               ;Для записи из регистра общего назначения в регистр XMM и обратно есть инструкции MOVD и MOVQ
+    1260:	66 48 0f 6e c0       	movq   %rax,%xmm0               ;%xmm0 = d
+    1265:	e8 66 fe ff ff       	callq  10d0 <sqrt@plt>          ;Извлекаем корень sqrt(d)
+    126a:	66 0f 28 c8          	movapd %xmm0,%xmm1              ;%xmm1 = sqrt(d)
+    126e:	f2 0f 10 45 d8       	movsd  -0x28(%rbp),%xmm0        ;%xmm0 = a
+    1273:	f2 0f 58 c0          	addsd  %xmm0,%xmm0              ;%xmm0 = 2 * a
+    1277:	f2 0f 5e c8          	divsd  %xmm0,%xmm1              ;%xmm1 = sqrt(d)/(2 * a)
+    127b:	66 0f 28 c1          	movapd %xmm1,%xmm0              ;%xmm0 = %xmm1 = sqrt(d)/(2 * a)
+    127f:	f2 0f 5c 45 d0       	subsd  -0x30(%rbp),%xmm0        ;%xmm0 = sqrt(d)/(2 * a) - b
+    1284:	f2 0f 11 45 f0       	movsd  %xmm0,-0x10(%rbp)        ;%rbp - 10 =  sqrt(d)/(2 * a) - b
+    1289:	f2 0f 10 45 d0       	movsd  -0x30(%rbp),%xmm0        ;%xmm0 = b
     128e:	f3 0f 7e 0d fa 0d 00 	movq   0xdfa(%rip),%xmm1        # 2090 <_IO_stdin_used+0x90>
     1295:	00 
-    1296:	66 0f 57 c1          	xorpd  %xmm1,%xmm0
-    129a:	f2 0f 11 45 c0       	movsd  %xmm0,-0x40(%rbp)
-    129f:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
-    12a3:	66 48 0f 6e c0       	movq   %rax,%xmm0
-    12a8:	e8 23 fe ff ff       	callq  10d0 <sqrt@plt>
-    12ad:	66 0f 28 c8          	movapd %xmm0,%xmm1
-    12b1:	f2 0f 10 45 d8       	movsd  -0x28(%rbp),%xmm0
-    12b6:	f2 0f 58 c0          	addsd  %xmm0,%xmm0
-    12ba:	f2 0f 5e c8          	divsd  %xmm0,%xmm1
-    12be:	66 0f 28 c1          	movapd %xmm1,%xmm0
-    12c2:	f2 0f 10 5d c0       	movsd  -0x40(%rbp),%xmm3
-    12c7:	f2 0f 5c d8          	subsd  %xmm0,%xmm3
-    12cb:	66 0f 28 c3          	movapd %xmm3,%xmm0
-    12cf:	f2 0f 11 45 f8       	movsd  %xmm0,-0x8(%rbp)
+    1296:	66 0f 57 c1          	xorpd  %xmm1,%xmm0              ;%xmm0 = -b
+    129a:	f2 0f 11 45 c0       	movsd  %xmm0,-0x40(%rbp)        ;%rbp - 40 = -b
+    129f:	48 8b 45 e0          	mov    -0x20(%rbp),%rax         ;Извлекаем d из %rbp - 20 и кладем в %rax
+                                                                    ;Аналогичные опреации для второго корня
+    12a3:	66 48 0f 6e c0       	movq   %rax,%xmm0               ;%xmm0 = d             
+    12a8:	e8 23 fe ff ff       	callq  10d0 <sqrt@plt>          ;Извлекаем корень sqrt(d)
+    12ad:	66 0f 28 c8          	movapd %xmm0,%xmm1              ;%xmm1 = sqrt(d)
+    12b1:	f2 0f 10 45 d8       	movsd  -0x28(%rbp),%xmm0        ;%xmm0 = a
+    12b6:	f2 0f 58 c0          	addsd  %xmm0,%xmm0              ;%xmm0 = 2 * a
+    12ba:	f2 0f 5e c8          	divsd  %xmm0,%xmm1              ;%xmm1 = sqrt(d)/(2 * a)
+    12be:	66 0f 28 c1          	movapd %xmm1,%xmm0              ;%xmm0 = %xmm1 = sqrt(d)/(2 * a)             
+    12c2:	f2 0f 10 5d c0       	movsd  -0x40(%rbp),%xmm3        ;%xmm3 = -b
+    12c7:	f2 0f 5c d8          	subsd  %xmm0,%xmm3              ;%xmm3 = -b - sqrt(d)/(2 * a)
+    12cb:	66 0f 28 c3          	movapd %xmm3,%xmm0              ;%xmm0 = -b - sqrt(d)/(2 * a)
+    12cf:	f2 0f 11 45 f8       	movsd  %xmm0,-0x8(%rbp)         ;Кладем значение корня -b - sqrt(d)/(2 * a) по адресу %rbp - 8
     12d4:	f2 0f 10 45 f8       	movsd  -0x8(%rbp),%xmm0
     12d9:	48 8b 45 f0          	mov    -0x10(%rbp),%rax
     12dd:	66 0f 28 c8          	movapd %xmm0,%xmm1
     12e1:	66 48 0f 6e c0       	movq   %rax,%xmm0
     12e6:	48 8d 3d 30 0d 00 00 	lea    0xd30(%rip),%rdi        # 201d <_IO_stdin_used+0x1d>
     12ed:	b8 02 00 00 00       	mov    $0x2,%eax
-    12f2:	e8 b9 fd ff ff       	callq  10b0 <printf@plt>
-    12f7:	eb 6b                	jmp    1364 <solution+0x19b>
-    12f9:	66 0f ef c0          	pxor   %xmm0,%xmm0
-    12fd:	66 0f 2e 45 e0       	ucomisd -0x20(%rbp),%xmm0
-    1302:	7a 4e                	jp     1352 <solution+0x189>
-    1304:	66 0f ef c0          	pxor   %xmm0,%xmm0
+    12f2:	e8 b9 fd ff ff       	callq  10b0 <printf@plt>        ;Функция printf (выводим корни)
+    12f7:	eb 6b                	jmp    1364 <solution+0x19b>    ;И переходим к завершению подпрограммы
+    
+    12f9:	66 0f ef c0          	pxor   %xmm0,%xmm0              ;Обнуляем %xmm0
+    12fd:	66 0f 2e 45 e0       	ucomisd -0x20(%rbp),%xmm0       ;Сравниваем d c 0
+    1302:	7a 4e                	jp     1352 <solution+0x189>    
+    1304:	66 0f ef c0          	pxor   %xmm0,%xmm0              
     1308:	66 0f 2e 45 e0       	ucomisd -0x20(%rbp),%xmm0
-    130d:	75 43                	jne    1352 <solution+0x189>
-    130f:	f2 0f 10 45 d0       	movsd  -0x30(%rbp),%xmm0
+    130d:	75 43                	jne    1352 <solution+0x189>    ;Если d ≠ 0, переходим к выводу сообщения о том, что корней нет; Иначе вычисляем корень
+    130f:	f2 0f 10 45 d0       	movsd  -0x30(%rbp),%xmm0        ;%xmm0 = b
     1314:	f3 0f 7e 0d 74 0d 00 	movq   0xd74(%rip),%xmm1        # 2090 <_IO_stdin_used+0x90>
     131b:	00 
-    131c:	66 0f 57 c8          	xorpd  %xmm0,%xmm1
-    1320:	f2 0f 10 45 d8       	movsd  -0x28(%rbp),%xmm0
-    1325:	f2 0f 58 c0          	addsd  %xmm0,%xmm0
-    1329:	f2 0f 5e c8          	divsd  %xmm0,%xmm1
-    132d:	66 0f 28 c1          	movapd %xmm1,%xmm0
-    1331:	f2 0f 11 45 e8       	movsd  %xmm0,-0x18(%rbp)
-    1336:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
-    133a:	66 48 0f 6e c0       	movq   %rax,%xmm0
+    131c:	66 0f 57 c8          	xorpd  %xmm0,%xmm1              ;%xmm1 = -b
+    1320:	f2 0f 10 45 d8       	movsd  -0x28(%rbp),%xmm0        ;%xmm0 = a
+    1325:	f2 0f 58 c0          	addsd  %xmm0,%xmm0              ;%xmm0 = 2 * a
+    1329:	f2 0f 5e c8          	divsd  %xmm0,%xmm1              ;%xmm1 = -b / (2 * a)
+    132d:	66 0f 28 c1          	movapd %xmm1,%xmm0              ;%xmm0 = %xmm1 = -b / (2 * a)
+    1331:	f2 0f 11 45 e8       	movsd  %xmm0,-0x18(%rbp)        ;%rbp - 18 = -b / (2 * a)
+    1336:	48 8b 45 e8          	mov    -0x18(%rbp),%rax         ;Кладем корень -b / (2 * a) в %rax
+    133a:	66 48 0f 6e c0       	movq   %rax,%xmm0               ;%xmm0 = -b / (2 * a)
     133f:	48 8d 3d ea 0c 00 00 	lea    0xcea(%rip),%rdi        # 2030 <_IO_stdin_used+0x30>
     1346:	b8 01 00 00 00       	mov    $0x1,%eax
-    134b:	e8 60 fd ff ff       	callq  10b0 <printf@plt>
-    1350:	eb 12                	jmp    1364 <solution+0x19b>
+    134b:	e8 60 fd ff ff       	callq  10b0 <printf@plt>        ;Функция printf (выводим корень) 
+    1350:	eb 12                	jmp    1364 <solution+0x19b>    ;И переходим к завершению подпрограммы
     1352:	48 8d 3d b7 0c 00 00 	lea    0xcb7(%rip),%rdi        # 2010 <_IO_stdin_used+0x10>
-    1359:	b8 00 00 00 00       	mov    $0x0,%eax
-    135e:	e8 4d fd ff ff       	callq  10b0 <printf@plt>
-    1363:	90                   	nop
-    1364:	c9                   	leaveq 
+    ;Соглашение о вызовах архитектуры x86 гласит, что возвращаемые функцией значения хранятся в регистре %eax
+    1359:	b8 00 00 00 00       	mov    $0x0,%eax                ;Кладем в регистр %eax 0 (предписание вернуть нуль при завершении функции)             
+    135e:	e8 4d fd ff ff       	callq  10b0 <printf@plt>        ;Функция printf (сообщение о том, что корней НЕТ) 
+    1363:	90                   	nop                             ;Ничего не делает, т.е. ничего не возвращает
+    1364:	c9                   	leaveq                          ;Скопировать RBP на RSP и затем восстановить старый RBP из стека.
     1365:	c3                   	retq   
 
 0000000000001366 <main>:
