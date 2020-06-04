@@ -242,10 +242,12 @@ Disassembly of section .text:
     12c7:	f2 0f 5c d8          	subsd  %xmm0,%xmm3              ;%xmm3 = -b - sqrt(d)/(2 * a)
     12cb:	66 0f 28 c3          	movapd %xmm3,%xmm0              ;%xmm0 = -b - sqrt(d)/(2 * a)
     12cf:	f2 0f 11 45 f8       	movsd  %xmm0,-0x8(%rbp)         ;Кладем значение корня -b - sqrt(d)/(2 * a) по адресу %rbp - 8
-    12d4:	f2 0f 10 45 f8       	movsd  -0x8(%rbp),%xmm0
-    12d9:	48 8b 45 f0          	mov    -0x10(%rbp),%rax
-    12dd:	66 0f 28 c8          	movapd %xmm0,%xmm1
-    12e1:	66 48 0f 6e c0       	movq   %rax,%xmm0
+    12d4:	f2 0f 10 45 f8       	movsd  -0x8(%rbp),%xmm0         
+    12d9:	48 8b 45 f0          	mov    -0x10(%rbp),%rax         ;%rax = %rbp - 10 = sqrt(d)/(2 * a) - b (первый корень)
+    
+    12dd:	66 0f 28 c8          	movapd %xmm0,%xmm1              ;%xmm1 = %xmm0 = -b - sqrt(d)/(2 * a) (второй корень)
+    12e1:	66 48 0f 6e c0       	movq   %rax,%xmm0               ;%xmm0 =  sqrt(d)/(2 * a) - b (первый корень)
+    
     12e6:	48 8d 3d 30 0d 00 00 	lea    0xd30(%rip),%rdi        # 201d <_IO_stdin_used+0x1d>
     12ed:	b8 02 00 00 00       	mov    $0x2,%eax
     12f2:	e8 b9 fd ff ff       	callq  10b0 <printf@plt>        ;Функция printf (выводим корни)
