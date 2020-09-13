@@ -1,0 +1,1050 @@
+id;_location;country;Lat;Long
+1;Shenzhen, Guangdong;China;24.2155;-12.8858
+2;Shanghai;China;46.8182;8.2275
+3;Zhejiang;China;35.1264;33.4299
+4;Tianjin;China;17.0608;-61.7964
+5;Tianjin;China;15.870032;100.992541
+6;Chongqing;China;18.1096;-77.2975
+7;Sichuan;China;17.1899;-88.4976
+8;Beijing;China;6.6111;20.9394
+9;Beijing;China;12.1165;-61.679
+10;Beijing;China;39.0742;21.8243
+11;Beijing;China;12.1784;-68.2385
+12;Beijing;China;32.3078;-64.7505
+13;Shandong;China;6.6111;20.9394
+14;Yunnan;China;-20.904305;165.618042
+15;Sichuan;China;51.9194;19.1451
+16;Jiangxi;China;53.7609;-98.8139
+17;Jiangxi;China;31.6927;88.0924
+18;Macau;China;48.0196;66.9237
+19;Liaoning;China;6.877;31.307
+20;Liaoning;China;44.0935;113.9448
+21;Fujian;China;51.2538;-85.3232
+22;Guizhou;China;37.8957;114.9042
+23;Shanxi;China;12.1784;-68.2385
+24;Sichuan;China;23.685;90.3563
+25;Sichuan;China;45.1;15.2
+26;Sichuan;China;15.4542;18.7322
+27;Ningxia;China;47.1625;19.5033
+28;Guangxi;China;64.2823;-135
+29;Guangxi;China;12.8628;30.2176
+30;Henan;China;30.6171;102.7103
+31;Henan;China;12.5211;-69.9683
+32;Henan;China;31.6927;88.0924
+33;Henan;China;21.694;-71.7979
+34;Shandong;China;55.3781;-3.436
+35;Hebei;China;17.9;-62.8333
+36;Beijing;China;31.202;121.4491
+37;Beijing;China;1.2833;103.8333
+38;Beijing;China;47.1625;19.5033
+39;Beijing;China;32.3078;-64.7505
+40;Jiangsu;China;42.7339;25.4858
+41;Heilongjiang;China;13.9094;-60.9789
+42;Guangxi;China;29.31166;47.481766
+43;Guangxi;China;-9.19;-75.0152
+44;Guangxi;China;28.1667;84.25
+45;Sichuan;China;23.424076;53.847818
+46;Sichuan;China;8.460555;-11.779889
+47;Sichuan;China;31.8257;117.2264
+48;Jilin;China;-14.235;-51.9253
+49;Wuhan, Hubei;China;47.14;9.55
+50;Wuhan, Hubei;China;19.1959;109.7453
+51;Wuhan, Hubei;China;23.424076;53.847818
+52;Wuhan, Hubei;China;30.3753;69.3451
+53;Wuhan, Hubei;China;18.2206;-63.0686
+54;Wuhan, Hubei;China;23.8298;108.7881
+55;Wuhan, Hubei;China;3.2028;73.2207
+56;Wuhan, Hubei;China;1.6508;10.2679
+57;Wuhan, Hubei;China;15.870032;100.992541
+58;Wuhan, Hubei;China;33.882;113.614
+59;Wuhan, Hubei;China;40.1431;47.5769
+60;Wuhan, Hubei;China;12.8628;30.2176
+61;Wuhan, Hubei;China;46.5107;-63.4168
+62;Wuhan, Hubei;China;26.0275;50.55
+63;Wuhan, Hubei;China;-0.0236;37.9062
+64;Wuhan, Hubei;China;-20.904305;165.618042
+65;Wuhan, Hubei;China;16.5388;-23.0418
+66;Liaoning;China;51.165691;10.451526
+67;Hunan;China;35.9375;14.3754
+68;Hunan;China;8.6195;0.8248
+69;Hunan;China;13.9094;-60.9789
+70;Hunan;China;-17.6797;149.4068
+71;Hunan;China;42.708678;19.37439
+72;Guizhou;China;41.6086;21.7453
+73;Gansu;China;18.0708;-63.0501
+74;Heilongjiang;China;53.7098;27.9534
+75;Shanxi;China;33.886917;9.537499
+76;Shanxi ;China;-0.228;15.8277
+77;Shanxi ;China;15.415;-61.371
+78;Xinjiang;China;45.1;15.2
+79;Xinjiang;China;24.974;101.487
+80;Yunnan;China;12.865416;-85.207229
+81;Tianjin;China;47.5162;14.5501
+82;Hubei;China;12.8628;30.2176
+83;Hubei;China;40.1824;116.4142
+84;Hubei;China;-23.4425;-58.4438
+85;Hubei;China;21.521757;-77.781167
+86;Hubei;China;31.24;36.51
+87;Hubei;China;49.3723;-2.3644
+88;Hubei;China;21.694;-71.7979
+89;Liaoning;China;17.570692;-3.996166
+90;Inner Mongolia;China;33.93911;67.709953
+91;Tianjin;China;37.8957;114.9042
+92;Beijing;China;-11.2027;17.8739
+93;Shaanxi;China;-32.5228;-55.7658
+94;Shaanxi;China;15.552727;48.516388
+95;Shanghai;China;-20.904305;165.618042
+96;Tianjin;China;33.223191;43.679291
+97;Yunnan;China;4.5353;114.7277
+98;Yunnan;China;41.9029;12.4534
+99;Yunnan;China;-4.0383;21.7587
+100;Wuhan, Hubei;China;31.202;121.4491
+101;Wuhan, Hubei;China;-42.8821;147.3272
+102;Wuhan, Hubei;China;40.1824;116.4142
+103;Wuhan, Hubei;China;30.6171;102.7103
+104;Wuhan, Hubei;China;-16.2902;-63.5887
+105;Wuhan, Hubei;China;1.6508;10.2679
+106;Wuhan, Hubei;China;51.9194;19.1451
+107;Wuhan, Hubei;China;4;-53
+108;Wuhan, Hubei;China;5.152149;46.199616
+109;Wuhan, Hubei;China;41.1129;85.2401
+110;Wuhan, Hubei;China;46.5653;-66.4619
+111;Wuhan, Hubei;China;-22.3285;24.6849
+112;Wuhan, Hubei;China;39.0742;21.8243
+113;Wuhan, Hubei;China;18.0708;-63.0501
+114;Wuhan, Hubei;China;31.6927;88.0924
+115;Hechi, Guangxi;China;64.8255;-124.8457
+116;Hechi, Guangxi;China;-40.9006;174.886
+117;Beijing;China;37.8957;114.9042
+118;Tianjin;China;30.0572;107.874
+119;Tianjin;China;1.373333;32.290275
+120;Tianjin;China;29.1832;120.0934
+121;Tianjin;China;13.1939;-59.5432
+122;Tianjin;China;53.7609;-98.8139
+123;Tianjin;China;53.1355;-57.6604
+124;Tianjin;China;46.8182;8.2275
+125;Tianjin;China;11.8251;42.5903
+126;Tianjin;China;37.2692;106.1655
+127;Tianjin;China;-0.0236;37.9062
+128;Gansu;China;30.6171;102.7103
+129;Gansu;China;60.472;8.4689
+130;Shaanxi;China;64.8255;-124.8457
+131;Shaanxi;China;44.682;-63.7443
+132;Shaanxi;China;41.20438;74.766098
+133;Shaanxi;China;7.873054;80.771797
+134;Shaanxi;China;34.802075;38.996815
+135;Shaanxi;China;35.7452;95.9956
+136;Shaanxi;China;3.2028;73.2207
+137;Shaanxi;China;42.3154;43.3569
+138;Shaanxi;China;-4.0383;21.7587
+139;Shaanxi;China;-8.874217;125.727539
+140;Yunnan;China;52.1326;5.2913
+141;Yunnan;China;13.7942;-88.8965
+142;Yunnan;China;53.1355;-57.6604
+143;Yunnan;China;48.0196;66.9237
+144;Yunnan;China;-20.348404;57.552152
+145;Yunnan;China;21.512583;55.923255
+146;Beijing;China;37.8957;114.9042
+147;Beijing;China;53.7267;-127.6476
+148;Beijing;China;14.4974;-14.4524
+149;Xinjiang;China;47.5162;14.5501
+150;Ningxia;China;25.025885;-78.035889
+151;Tianjin;China;-1.9403;29.8739
+152;Tianjin;China;-18.665695;35.529562
+153;Tianjin;China;9.9456;-9.6966
+154;Macau;China;43.7333;7.4167
+155;Macau;China;31.7917;-7.0926
+156;Macau;China;13.7942;-88.8965
+157;Shaanxi;China;12.1696;-68.99
+158;Shaanxi;China;60.128161;18.643501
+159;Shaanxi;China;-1.9403;29.8739
+160;Shaanxi;China;41.87194;12.56738
+161;Shaanxi;China;46.5653;-66.4619
+162;Shaanxi;China;17.0608;-61.7964
+163;Shaanxi;China;14.058324;108.277199
+164;Tianjin;China;33.882;113.614
+165;Yunnan;China;26.0275;50.55
+166;Yunnan;China;42.5063;1.5218
+167;Yunnan;China;-0.0236;37.9062
+168;Yunnan;China;41.1533;20.1683
+169;Yunnan;China;9.145;40.4897
+170;Beijing;China;-0.228;15.8277
+171;Beijing;China;24.974;101.487
+172;Beijing;China;15.7835;-90.2308
+173;Beijing;China;-4.6796;55.492
+174;Tianjin;China;37.8957;114.9042
+175;Tianjin;China;35.7452;95.9956
+176;Tianjin;China;55.3781;-3.436
+177;Guizhou;China;31.6927;88.0924
+178;Jilin;China;;
+179;Yunnan;China;52.9399;-106.4509
+180;Yunnan;China;-38.4161;-63.6167
+181;Yunnan;China;-0.0236;37.9062
+182;Jiangxi;China;-32.5228;-55.7658
+183;Shaanxi;China;31.046051;34.851612
+184;Shaanxi;China;23.7;121
+185;Shaanxi;China;-31.9505;115.8605
+186;Shaanxi;China;43.6661;126.1923
+187;Shaanxi;China;31.9522;35.2332
+188;Shaanxi;China;42.602636;20.902977
+189;Shaanxi;China;53.7609;-98.8139
+190;Shaanxi;China;12.2383;-1.5616
+191;Shaanxi;China;47.862;127.7615
+192;Shaanxi;China;-8.874217;125.727539
+193;Shaanxi;China;44.0165;21.0059
+194;Shaanxi;China;11.8037;-15.1804
+195;Hubei;China;9.9456;-9.6966
+196;Hubei;China;7.9465;-1.0232
+197;Shandong;China;17.607789;8.081666
+198;Bordeaux;France;13.9094;-60.9789
+199;Paris;France;15.1794;39.7823
+200;Paris;France;12.1784;-68.2385
+201;Paris;France;-4.6796;55.492
+202;Paris;France;7.873054;80.771797
+203;Paris;France;8.538;-80.7821
+204;France;France;6.428055;-9.429499
+205;France;France;24.2155;-12.8858
+206;France;France;55.3781;-3.436
+207;France;France;-11.2027;17.8739
+208;France;France;4.5353;114.7277
+209;France;France;64.8255;-124.8457
+210;Paris;France;26.0789;117.9874
+211;Annecy;France;29.31166;47.481766
+212;Amiens;France;18.0425;-63.0548
+213;Strasbourg;France;7.9465;-1.0232
+214;Paris;France;46.8625;103.8467
+215;Annecy;France;15.552727;48.516388
+216;Paris;France;6.428055;-9.429499
+217;Paris;France;36.3427;118.1498
+218;Saint-Mande;France;23.7;121
+219;Saint-Mande;France;53.1355;-57.6604
+220;Saint-Mande;France;14.058324;108.277199
+221;Saint-Mande;France;52.1326;5.2913
+222;Saint-Mande;France;41.377491;64.585262
+223;Dijon;France;33.93911;67.709953
+224;Dijon;France;-17.7134;178.065
+225;Dijon;France;39.3054;117.323
+226;Lile;France;51.165691;10.451526
+227;Nantes;France;4;-53
+228;Montpellier;France;44.682;-63.7443
+229;Paris;France;4.5709;-74.2973
+230;Brest;France;31.202;121.4491
+231;Dijon;France;26.820553;30.802498
+232;Lyon;France;5.152149;46.199616
+233;Annecy;France;55.3781;-3.436
+234;Annecy;France;-17.6797;149.4068
+235;Bois-Guillaume;France;46.2276;2.2137
+236;Nice;France;48.0196;66.9237
+237;Kanagawa;Japan;-1.8312;-78.1834
+238;Tokyo;Japan;35.7452;95.9956
+239;Tokyo;Japan;15.870032;100.992541
+240;Aichi Prefecture;Japan;17.570692;-3.996166
+241;Aichi Prefecture;Japan;30.3753;69.3451
+242;Nara Prefecture;Japan;45.9432;24.9668
+243;Hokkaido;Japan;-4.0383;21.7587
+244;Osaka Prefecture;Japan;9.7489;-83.7534
+245;Tokyo;Japan;17.357822;-62.782998
+246;Mie;Japan;40.1824;116.4142
+247;Japan;Japan;35.7518;104.2861
+248;Kyoto;Japan;52.1326;5.2913
+249;Haneda;Japan;-9.19;-75.0152
+250;Japan;Japan;53.9333;-116.5765
+251;Japan;Japan;-22.3285;24.6849
+252;Japan;Japan;-35.6751;-71.543
+253;Chiba Prefecture;Japan;31.7917;-7.0926
+254;Chiba Prefecture;Japan;53.7609;-98.8139
+255;Japan;Japan;6.877;31.307
+256;Chiba Prefecture;Japan;33.223191;43.679291
+257;Kyoto;Japan;18.1096;-77.2975
+258;Japan;Japan;40.0691;45.0382
+259;Japan;Japan;3.2028;73.2207
+260;Japan;Japan;26.820553;30.802498
+261;Japan;Japan;52.1326;5.2913
+262;Japan;Japan;-13.133897;27.849332
+263;Kanagawa;Japan;21.512583;55.923255
+264;Tokyo;Japan;-6.369028;34.888822
+265;Wakayama Prefecture;Japan;5.152149;46.199616
+266;Chiba Prefecture;Japan;15.870032;100.992541
+267;Japan;Japan;44.682;-63.7443
+268;Okinawa Prefecture;Japan;9.082;8.6753
+269;Tokyo;Japan;53.7609;-98.8139
+270;Tokyo;Japan;-0.228;15.8277
+271;Aichi Prefecture;Japan;31.202;121.4491
+272;Hokkaido;Japan;43.9424;12.4578
+273;Kanagawa;Japan;21.9162;95.956
+274;Wakayama Prefecture;Japan;14.4974;-14.4524
+275;Wakayama Prefecture;Japan;15.1794;39.7823
+276;Wakayama Prefecture;Japan;47.5162;14.5501
+277;Aichi Prefecture;Japan;15.415;-61.371
+278;Tokyo;Japan;48.669;19.699
+279;Tokyo;Japan;55.3781;-3.436
+280;Tokyo;Japan;31.7917;-7.0926
+281;Tokyo;Japan;55.1694;23.8813
+282;Aichi Prefecture;Japan;-22.3285;24.6849
+283;Nara Prefecture;Japan;45.1;15.2
+284;Aichi Prefecture;Japan;46.5107;-63.4168
+285;Wakayama Prefecture;Japan;44.0165;21.0059
+286;Wakayama Prefecture;Japan;25.3548;51.1839
+287;Wakayama Prefecture;Japan;47.4116;28.3699
+288;Wakayama Prefecture;Japan;12.9843;-61.2872
+289;Wakayama Prefecture;Japan;-17.7134;178.065
+290;Wakayama Prefecture;Japan;17.607789;8.081666
+291;Wakayama Prefecture;Japan;33.882;113.614
+292;Tokyo;Japan;1.6508;10.2679
+293;Japan;Japan;12.1696;-68.99
+294;Japan;Japan;17.1899;-88.4976
+295;Aichi Prefecture;Japan;11.55;104.9167
+296;Sagamihara;Japan;29.31166;47.481766
+297;Sagamihara;Japan;-51.7963;-59.5236
+298;Kanagawa;Japan;52.9399;-106.4509
+299;Sapporo;Japan;;
+300;Hokkaido;Japan;40.1431;47.5769
+301;Okinawa Prefecture;Japan;-14.235;-51.9253
+302;Tokyo;Japan;42.3154;43.3569
+303;Tokyo;Japan;31.8257;117.2264
+304;Tokyo;Japan;-6.369028;34.888822
+305;Nagoya City;Japan;-29.61;28.2336
+306;Japan;Japan;48.3794;31.1656
+307;Fukuoka Prefecture;Japan;7.9465;-1.0232
+308;Hokkaido;Japan;32.3078;-64.7505
+309;Chiba Prefecture;Japan;23.685;90.3563
+310;Okinawa Prefecture;Japan;60.472;8.4689
+311;Japan;Japan;36.204824;138.252924
+312;Japan;Japan;41.9029;12.4534
+313;Nagoya City;Japan;-51.7963;-59.5236
+314;Sagamihara;Japan;17.607789;8.081666
+315;Fukuoka Prefecture;Japan;28.1667;84.25
+316;Hokkaido;Japan;19.1959;109.7453
+317;Hokkaido;Japan;31.9522;35.2332
+318;Hokkaido;Japan;19.1959;109.7453
+319;Ishikawa;Japan;-34.9285;138.6007
+320;Saitama Prefecture;Japan;15.870032;100.992541
+321;Tokyo;Japan;41.20438;74.766098
+322;Tokyo;Japan;33.882;113.614
+323;Tokyo;Japan;14.4974;-14.4524
+324;Chiba Prefecture;Japan;6.428055;-9.429499
+325;Sagamihara;Japan;17.607789;8.081666
+326;Nagoya City;Japan;-37.8136;144.9631
+327;Nagoya City;Japan;35.9375;14.3754
+328;Kumamoto City;Japan;14.6415;-61.0242
+329;Kumamoto City;Japan;41.87194;12.56738
+330;Kumamoto Prefecture;Japan;-31.9505;115.8605
+331;Wakayama Prefecture;Japan;-3.3731;29.9189
+332;Chiba Prefecture;Japan;33.882;113.614
+333;Japan;Japan;39.0742;21.8243
+334;Hokkaido;Japan;50.8333;4.469936
+335;Hokkaido;Japan;53.1355;-57.6604
+336;Hokkaido;Japan;23.8298;108.7881
+337;Hokkaido;Japan;-4.6796;55.492
+338;Hokkaido;Japan;23.6345;-102.5528
+339;Hokkaido;Japan;17.570692;-3.996166
+340;Hokkaido;Japan;36.1408;-5.3536
+341;Hokkaido;Japan;38.861;71.2761
+342;Tokyo;Japan;18.9712;-72.2852
+343;Nagoya City;Japan;47.4116;28.3699
+344;Nagoya City;Japan;35.7452;95.9956
+345;Nagoya City;Japan;4.5709;-74.2973
+346;Nagoya City;Japan;53.1355;-57.6604
+347;Japan;Japan;-0.0236;37.9062
+348;Sagamihara;Japan;42.3154;43.3569
+349;Hokkaido;Japan;32.9711;119.455
+350;Sapporo;Japan;16.742498;-62.187366
+351;Nagoya City;Japan;23.6345;-102.5528
+352;Nagoya City;Japan;47.5162;14.5501
+353;Chiba Prefecture;Japan;41.377491;64.585262
+354;Hokkaido;Japan;38.861;71.2761
+355;Hokkaido;Japan;40.1824;116.4142
+356;Hokkaido;Japan;24.974;101.487
+357;Hokkaido;Japan;5.152149;46.199616
+358;Hokkaido;Japan;46.5653;-66.4619
+359;Hokkaido;Japan;48.669;19.699
+360;Hokkaido;Japan;4.210484;101.975766
+361;Hokkaido;Japan;4.210484;101.975766
+362;Ishikawa;Japan;-17.6797;149.4068
+363;Sagamihara;Japan;52.9399;-73.5491
+364;Ishikawa;Japan;47.862;127.7615
+365;Sapporo;Japan;17.570692;-3.996166
+366;Sapporo;Japan;-21.1151;55.5364
+367;Hokkaido;Japan;-19.015438;29.154857
+368;Hokkaido;Japan;26.820553;30.802498
+369;Kanagawa;Japan;37.5777;112.2922
+370;Tokyo;Japan;-23.4425;-58.4438
+371;Tokyo;Japan;27.5142;90.4336
+372;Tokyo;Japan;17.1899;-88.4976
+373;Sagamihara;Japan;21.694;-71.7979
+374;Sagamihara;Japan;-4.0383;21.7587
+375;Sagamihara;Japan;33.882;113.614
+376;Nagano Prefecture;Japan;53.7609;-98.8139
+377;Kumamoto City;Japan;48.3794;31.1656
+378;Kumamoto City;Japan;49.8153;6.1296
+379;Sapporo;Japan;71.7069;-42.6043
+380;Ishikawa;Japan;34.802075;38.996815
+381;Nagoya City;Japan;-3.3731;29.9189
+382;Nagoya City;Japan;45.9432;24.9668
+383;Nagoya City;Japan;34.802075;38.996815
+384;Chiba Prefecture;Japan;14.6415;-61.0242
+385;Chiba Prefecture;Japan;-51.7963;-59.5236
+386;Chiba Prefecture;Japan;45.9432;24.9668
+387;Hokkaido;Japan;13.4432;-15.3101
+388;Hokkaido;Japan;10.6918;-61.2225
+389;Hokkaido;Japan;9.3077;2.3158
+390;Hokkaido;Japan;32.3078;-64.7505
+391;Hokkaido;Japan;41.87194;12.56738
+392;Hokkaido;Japan;-35.4735;149.0124
+393;Hokkaido;Japan;47.5162;14.5501
+394;Kanagawa;Japan;-17.6797;149.4068
+395;Osaka Prefecture;Japan;18.7357;-70.1627
+396;Tokyo;Japan;45.1;15.2
+397;Tokyo;Japan;40.1431;47.5769
+398;Tokyo;Japan;12.9843;-61.2872
+399;Nagoya City;Japan;41.9029;12.4534
+400;Nagoya City;Japan;29.1832;120.0934
+401;Nagoya City;Japan;42.3154;43.3569
+402;Nagoya City;Japan;-26.5225;31.4659
+403;Nagoya City;Japan;42.7339;25.4858
+404;Gifu Prefecture;Japan;60.472;8.4689
+405;Gifu Prefecture;Japan;8.460555;-11.779889
+406;Ishikawa;Japan;12.1165;-61.679
+407;Kanagawa;Japan;43.6661;126.1923
+408;Tokyo;Japan;56.8796;24.6032
+409;Osaka Prefecture;Japan;37.5777;112.2922
+410;Hokkaido;Japan;20.593684;78.96288
+411;Hokkaido;Japan;32.3078;-64.7505
+412;Hokkaido;Japan;-8.874217;125.727539
+413;Hokkaido;Japan;12.865416;-85.207229
+414;Hokkaido;Japan;11.8251;42.5903
+415;Hokkaido;Japan;3.848;11.5021
+416;Hokkaido;Japan;64.2823;-135
+417;Hokkaido;Japan;43.9159;17.6791
+418;Hokkaido;Japan;12.9843;-61.2872
+419;Hokkaido;Japan;26.0275;50.55
+420;Hokkaido;Japan;35.7452;95.9956
+421;Hokkaido;Japan;4.860416;-58.93018
+422;Hokkaido;Japan;15.4542;18.7322
+423;Hokkaido;Japan;4.210484;101.975766
+424;Hokkaido;Japan;47.862;127.7615
+425;Nagoya City;Japan;31.9522;35.2332
+426;Nagoya City;Japan;9.7489;-83.7534
+427;Johor;Malaysia;23.885942;45.079162
+428;Johor;Malaysia;21.512583;55.923255
+429;Johor;Malaysia;21.521757;-77.781167
+430;Johor;Malaysia;29.1832;120.0934
+431;Langkawi;Malaysia;-40.9006;174.886
+432;Johor;Malaysia;40.1431;47.5769
+433;Johor;Malaysia;-12.8275;45.166244
+434;Johor;Malaysia;55.1694;23.8813
+435;Malaysia;Malaysia;61.52401;105.318756
+436;Malaysia;Malaysia;21.512583;55.923255
+437;Malaysia;Malaysia;32.427908;53.688046
+438;Malaysia;Malaysia;7.54;-5.5471
+439;Malaysia;Malaysia;41.1533;20.1683
+440;Malaysia;Malaysia;45.1;15.2
+441;Johor;Malaysia;18.9712;-72.2852
+442;Malaysia;Malaysia;26.0789;117.9874
+443;Malaysia;Malaysia;0.1864;6.6131
+444;Malaysia;Malaysia;1.6508;10.2679
+445;Malaysia;Malaysia;9.082;8.6753
+446;Malaysia;Malaysia;12.9843;-61.2872
+447;Malaysia;Malaysia;23.6345;-102.5528
+448;Malaysia;Malaysia;15.1794;39.7823
+449;Malaysia;Malaysia;38.861;71.2761
+450;Kathmandu;Nepal;4.860416;-58.93018
+451;Singapore;Singapore;41.2956;122.6085
+452;Singapore;Singapore;71.7069;-42.6043
+453;Singapore;Singapore;24.974;101.487
+454;Singapore;Singapore;-32.5228;-55.7658
+455;Singapore;Singapore;50.8333;4.469936
+456;Singapore;Singapore;-18.766947;46.869107
+457;Singapore;Singapore;21.512583;55.923255
+458;Singapore;Singapore;50.8333;4.469936
+459;Singapore;Singapore;49.8153;6.1296
+460;Singapore;Singapore;24.974;101.487
+461;Singapore;Singapore;17.357822;-62.782998
+462;Singapore;Singapore;-4.6796;55.492
+463;Singapore;Singapore;7.54;-5.5471
+464;Singapore;Singapore;48.669;19.699
+465;Singapore;Singapore;60.472;8.4689
+466;Singapore;Singapore;71.7069;-42.6043
+467;Singapore;Singapore;-6.314993;143.95555
+468;Singapore;Singapore;48.0196;66.9237
+469;Singapore;Singapore;;
+470;Singapore;Singapore;3.848;11.5021
+471;Singapore;Singapore;35.1264;33.4299
+472;Singapore;Singapore;51.2538;-85.3232
+473;Singapore;Singapore;17.607789;8.081666
+474;Singapore;Singapore;21.0079;-10.9408
+475;Singapore;Singapore;-4.0383;21.7587
+476;Singapore;Singapore;-26.5225;31.4659
+477;Singapore;Singapore;47.5162;14.5501
+478;Singapore;Singapore;45.1;15.2
+479;Singapore;Singapore;46.8182;8.2275
+480;Singapore;Singapore;52.9399;-106.4509
+481;Singapore;Singapore;33.886917;9.537499
+482;Singapore;Singapore;-0.7893;113.9213
+483;Singapore;Singapore;12.2383;-1.5616
+484;Singapore;Singapore;-14.235;-51.9253
+485;Singapore;Singapore;56.2639;9.5018
+486;Singapore;Singapore;8.460555;-11.779889
+487;Singapore;Singapore;36.1408;-5.3536
+488;Singapore;Singapore;46.5107;-63.4168
+489;Singapore;Singapore;53.7267;-127.6476
+490;Singapore;Singapore;31.046051;34.851612
+491;Singapore;Singapore;-51.7963;-59.5236
+492;Singapore;Singapore;44.682;-63.7443
+493;Singapore;Singapore;14.6415;-61.0242
+494;Singapore;Singapore;44.0165;21.0059
+495;Singapore;Singapore;35.907757;127.766922
+496;Singapore;Singapore;18.7357;-70.1627
+497;Singapore;Singapore;13.4432;-15.3101
+498;Singapore;Singapore;21.0079;-10.9408
+499;Singapore;Singapore;4.5709;-74.2973
+500;Singapore;Singapore;-40.9006;174.886
+501;Singapore;Singapore;20.593684;78.96288
+502;Singapore;Singapore;12.879721;121.774017
+503;Singapore;Singapore;51.2538;-85.3232
+504;Singapore;Singapore;33.223191;43.679291
+505;Singapore;Singapore;23.885942;45.079162
+506;Singapore;Singapore;32.427908;53.688046
+507;Singapore;Singapore;53.7609;-98.8139
+508;Singapore;Singapore;4.5709;-74.2973
+509;Singapore;Singapore;8.538;-80.7821
+510;Singapore;Singapore;26.0275;50.55
+511;Singapore;Singapore;8.6195;0.8248
+512;Singapore;Singapore;-22.3285;24.6849
+513;Singapore;Singapore;9.145;40.4897
+514;Singapore;Singapore;1.2833;103.8333
+515;Singapore;Singapore;;
+516;Singapore;Singapore;36.204824;138.252924
+517;Singapore;Singapore;46.8182;8.2275
+518;Singapore;Singapore;-16.2902;-63.5887
+519;Singapore;Singapore;36.204824;138.252924
+520;Singapore;Singapore;6.4238;-66.5897
+521;Singapore;Singapore;3.848;11.5021
+522;Singapore;Singapore;47.14;9.55
+523;Singapore;Singapore;51.2538;-85.3232
+524;Singapore;Singapore;36.3427;118.1498
+525;Singapore;Singapore;30.6171;102.7103
+526;Singapore;Singapore;35.907757;127.766922
+527;Singapore;Singapore;12.865416;-85.207229
+528;Singapore;Singapore;14.6415;-61.0242
+529;Singapore;Singapore;23.685;90.3563
+530;Singapore;Singapore;11.55;104.9167
+531;Singapore;Singapore;47.5162;14.5501
+532;Singapore;Singapore;41.377491;64.585262
+533;Singapore;Singapore;14.4974;-14.4524
+534;Singapore;Singapore;51.9194;19.1451
+535;Singapore;Singapore;-12.8275;45.166244
+536;Singapore;Singapore;42.708678;19.37439
+537;Singapore;Singapore;15.2;-86.2419
+538;Singapore;Singapore;48.3794;31.1656
+539;Singapore;Singapore;-0.228;15.8277
+540;Singapore;Singapore;42.7339;25.4858
+541;Singapore;Singapore;41.2956;122.6085
+542;Singapore;Singapore;-17.6797;149.4068
+543;Singapore;Singapore;42.602636;20.902977
+544;South Korea;South Korea;19.85627;102.495496
+545;South Korea;South Korea;9.082;8.6753
+546;South Korea;South Korea;49.8153;6.1296
+547;South Korea;South Korea;27.5142;90.4336
+548;South Korea;South Korea;53.9333;-116.5765
+549;South Korea;South Korea;64.9631;-19.0208
+550;South Korea;South Korea;12.1165;-61.679
+551;South Korea;South Korea;27.6104;111.7088
+552;South Korea;South Korea;55.3781;-3.436
+553;South Korea;South Korea;-34.9285;138.6007
+554;South Korea;South Korea;14.4974;-14.4524
+555;South Korea;South Korea;1.2833;103.8333
+556;South Korea;South Korea;32.427908;53.688046
+557;Seoul;South Korea;38.861;71.2761
+558;South Korea;South Korea;43.9424;12.4578
+559;South Korea;South Korea;42.602636;20.902977
+560;South Korea;South Korea;41.1129;85.2401
+561;South Korea;South Korea;-27.4698;153.0251
+562;South Korea;South Korea;28.1667;84.25
+563;South Korea;South Korea;47.5162;14.5501
+564;South Korea;South Korea;35.7452;95.9956
+565;South Korea;South Korea;30.6171;102.7103
+566;South Korea;South Korea;44.0165;21.0059
+567;South Korea;South Korea;35.9375;14.3754
+568;South Korea;South Korea;56.8796;24.6032
+569;South Korea;South Korea;44.682;-63.7443
+570;South Korea;South Korea;53.7609;-98.8139
+571;South Korea;South Korea;35.9375;14.3754
+572;South Korea;South Korea;61.8926;-6.9118
+573;South Korea;South Korea;-22.9576;18.4904
+574;South Korea;South Korea;12.9843;-61.2872
+575;South Korea;South Korea;-20.348404;57.552152
+576;South Korea;South Korea;26.8154;106.8748
+577;South Korea;South Korea;17.9;-62.8333
+578;South Korea;South Korea;18.9712;-72.2852
+579;South Korea;South Korea;45.1;15.2
+580;South Korea;South Korea;;
+581;South Korea;South Korea;20.593684;78.96288
+582;South Korea;South Korea;23.6345;-102.5528
+583;South Korea;South Korea;-16.2902;-63.5887
+584;South Korea;South Korea;29.1832;120.0934
+585;South Korea;South Korea;4.5709;-74.2973
+586;South Korea;South Korea;71.7069;-42.6043
+587;South Korea;South Korea;21.512583;55.923255
+588;South Korea;South Korea;15.2;-86.2419
+589;South Korea;South Korea;42.708678;19.37439
+590;South Korea;South Korea;35.1264;33.4299
+591;South Korea;South Korea;53.9333;-116.5765
+592;South Korea;South Korea;34.802075;38.996815
+593;South Korea;South Korea;42.3154;43.3569
+594;South Korea;South Korea;60.128161;18.643501
+595;South Korea;South Korea;-1.9403;29.8739
+596;South Korea;South Korea;41.1129;85.2401
+597;South Korea;South Korea;37.2692;106.1655
+598;South Korea;South Korea;46.1512;14.9955
+599;South Korea;South Korea;36.1408;-5.3536
+600;South Korea;South Korea;44.0165;21.0059
+601;South Korea;South Korea;21.0079;-10.9408
+602;South Korea;South Korea;9.9456;-9.6966
+603;South Korea;South Korea;6.428055;-9.429499
+604;South Korea;South Korea;61.52401;105.318756
+605;South Korea;South Korea;39.0742;21.8243
+606;South Korea;South Korea;44.0165;21.0059
+607;South Korea;South Korea;37.5777;112.2922
+608;South Korea;South Korea;-0.0236;37.9062
+609;South Korea;South Korea;23.3417;113.4244
+610;South Korea;South Korea;-30.5595;22.9375
+611;South Korea;South Korea;61.8926;-6.9118
+612;South Korea;South Korea;21.0079;-10.9408
+613;South Korea;South Korea;17.0608;-61.7964
+614;South Korea;South Korea;5.152149;46.199616
+615;South Korea;South Korea;4.860416;-58.93018
+616;South Korea;South Korea;30.6171;102.7103
+617;South Korea;South Korea;11.55;104.9167
+618;South Korea;South Korea;43.9424;12.4578
+619;South Korea;South Korea;47.5162;14.5501
+620;South Korea;South Korea;-32.5228;-55.7658
+621;South Korea;South Korea;18.7357;-70.1627
+622;South Korea;South Korea;47.14;9.55
+623;South Korea;South Korea;43.6661;126.1923
+624;South Korea;South Korea;-35.4735;149.0124
+625;South Korea;South Korea;12.5211;-69.9683
+626;South Korea;South Korea;48.669;19.699
+627;South Korea;South Korea;-22.3285;24.6849
+628;South Korea;South Korea;12.865416;-85.207229
+629;South Korea;South Korea;6.4238;-66.5897
+630;South Korea;South Korea;-33.8688;151.2093
+631;South Korea;South Korea;41.1129;85.2401
+632;South Korea;South Korea;33.93911;67.709953
+633;South Korea;South Korea;64.2823;-135
+634;South Korea;South Korea;26.0275;50.55
+635;South Korea;South Korea;43.6661;126.1923
+636;South Korea;South Korea;51.2538;-85.3232
+637;South Korea;South Korea;45.9432;24.9668
+638;South Korea;South Korea;50.8333;4.469936
+639;South Korea;South Korea;30.3753;69.3451
+640;South Korea;South Korea;52.1326;5.2913
+641;South Korea;South Korea;37.5777;112.2922
+642;South Korea;South Korea;-4.0383;21.7587
+643;South Korea;South Korea;17.357822;-62.782998
+644;South Korea;South Korea;4;-53
+645;South Korea;South Korea;33.886917;9.537499
+646;South Korea;South Korea;53.7267;-127.6476
+647;South Korea;South Korea;53.7267;-127.6476
+648;South Korea;South Korea;-19.015438;29.154857
+649;South Korea;South Korea;-11.2027;17.8739
+650;Seoul;South Korea;43.7333;7.4167
+651;South Korea;South Korea;46.5107;-63.4168
+652;South Korea;South Korea;-20.348404;57.552152
+653;South Korea;South Korea;-22.3285;24.6849
+654;South Korea;South Korea;26.820553;30.802498
+655;South Korea;South Korea;40.0691;45.0382
+656;South Korea;South Korea;-26.5225;31.4659
+657;South Korea;South Korea;37.2692;106.1655
+658;Taiwan;Taiwan;17.570692;-3.996166
+659;Taiwan;Taiwan;31.7917;-7.0926
+660;Taiwan;Taiwan;-37.8136;144.9631
+661;Taiwan;Taiwan;39.3999;-8.2245
+662;Taiwan;Taiwan;26.3351;17.228331
+663;Taiwan;Taiwan;40.463667;-3.74922
+664;Taiwan;Taiwan;40.463667;-3.74922
+665;Taiwan;Taiwan;-27.4698;153.0251
+666;Taiwan;Taiwan;23.8298;108.7881
+667;Taiwan;Taiwan;30.0572;107.874
+668;Taiwan;Taiwan;71.7069;-42.6043
+669;Taiwan;Taiwan;31.6927;88.0924
+670;Taiwan;Taiwan;33.223191;43.679291
+671;Taiwan;Taiwan;-16.2902;-63.5887
+672;Taiwan;Taiwan;14.6415;-61.0242
+673;Taiwan;Taiwan;30.9756;112.2707
+674;Taiwan;Taiwan;55.1694;23.8813
+675;Taiwan;Taiwan;56.2639;9.5018
+676;Taiwan;Taiwan;12.2383;-1.5616
+677;Taiwan;Taiwan;20.593684;78.96288
+678;Taiwan;Taiwan;23.7;121
+679;Taiwan;Taiwan;13.1939;-59.5432
+680;Taiwan;Taiwan;26.3351;17.228331
+681;Taiwan;Taiwan;-29.61;28.2336
+682;Taiwan;Taiwan;7.9465;-1.0232
+683;Taiwan;Taiwan;-6.314993;143.95555
+684;Taiwan;Taiwan;-34.9285;138.6007
+685;Taiwan;Taiwan;43.6661;126.1923
+686;Taiwan;Taiwan;21.0079;-10.9408
+687;Taiwan;Taiwan;18.0425;-63.0548
+688;Taiwan;Taiwan;3.2028;73.2207
+689;Taiwan;Taiwan;50.8333;4.469936
+690;Taiwan;Taiwan;9.7489;-83.7534
+691;Taiwan;Taiwan;-19.015438;29.154857
+692;Thailand;Thailand;46.2276;2.2137
+693;Thailand;Thailand;35.9375;14.3754
+694;Thailand;Thailand;-19.015438;29.154857
+695;Thailand;Thailand;42.5063;1.5218
+696;Thailand;Thailand;26.0275;50.55
+697;Thailand;Thailand;5.152149;46.199616
+698;Thailand;Thailand;36.1408;-5.3536
+699;Thailand;Thailand;47.5162;14.5501
+700;Thailand;Thailand;9.082;8.6753
+701;Thailand;Thailand;56.2639;9.5018
+702;Thailand;Thailand;42.602636;20.902977
+703;Thailand;Thailand;23.8298;108.7881
+704;Thailand;Thailand;14.4974;-14.4524
+705;Thailand;Thailand;27.6104;111.7088
+706;Thailand;Thailand;31.046051;34.851612
+707;Thailand;Thailand;9.7489;-83.7534
+708;Thailand;Thailand;18.9712;-72.2852
+709;Thailand;Thailand;26.0275;50.55
+710;Thailand;Thailand;53.9333;-116.5765
+711;Thailand;Thailand;42.5063;1.5218
+712;Thailand;Thailand;40.1431;47.5769
+713;Thailand;Thailand;51.165691;10.451526
+714;Thailand;Thailand;12.5211;-69.9683
+715;Thailand;Thailand;37.5777;112.2922
+716;Thailand;Thailand;44.682;-63.7443
+717;Thailand;Thailand;44.0935;113.9448
+718;Thailand;Thailand;-6.369028;34.888822
+719;Thailand;Thailand;31.046051;34.851612
+720;Thailand;Thailand;4;-53
+721;Thailand;Thailand;-20.348404;57.552152
+722;Thailand;Thailand;41.377491;64.585262
+723;Thailand;Thailand;9.3077;2.3158
+724;Thailand;Thailand;9.7489;-83.7534
+725;Thailand;Thailand;60.472;8.4689
+726;Thailand;Thailand;30.9756;112.2707
+727;Thailand;Thailand;53.7609;-98.8139
+728;Thailand;Thailand;55.1694;23.8813
+729;Thailand;Thailand;12.1696;-68.99
+730;Thailand;Thailand;21.521757;-77.781167
+731;Thailand;Thailand;53.9333;-116.5765
+732;Thailand;Thailand;-34.9285;138.6007
+733;Washington;USA;18.1096;-77.2975
+734;Illinois;USA;71.7069;-42.6043
+735;California;USA;28.1667;84.25
+736;California;USA;38.861;71.2761
+737;Arizona;USA;53.7267;-127.6476
+738;Illinois;USA;21.512583;55.923255
+739;California;USA;8.6195;0.8248
+740;Massachusetts;USA;44.682;-63.7443
+741;California;USA;46.8625;103.8467
+742;California;USA;27.614;115.7221
+743;California;USA;39.3054;117.323
+744;Wisconsin;USA;-13.2543;34.3015
+745;California;USA;48.0196;66.9237
+746;California;USA;-0.228;15.8277
+747;Texas;USA;13.7942;-88.8965
+748;California;USA;15.552727;48.516388
+749;California;USA;9.9456;-9.6966
+750;California;USA;23.885942;45.079162
+751;Ho Chi Minh City;Vietnam;34.802075;38.996815
+752;Ho Chi Minh City;Vietnam;50.8333;4.469936
+753;Hanoi;Vietnam;-20.904305;165.618042
+754;Hanoi;Vietnam;35.7518;104.2861
+755;Thanh Hoa;Vietnam;28.1667;84.25
+756;Vietnam;Vietnam;41.6086;21.7453
+757;Vietnam;Vietnam;18.0708;-63.0501
+758;Vietnam;Vietnam;44.0935;113.9448
+759;Vinh Phuc;Vietnam;31.6927;88.0924
+760;Vinh Phuc;Vietnam;46.8182;8.2275
+761;Vinh Phuc;Vietnam;41.1129;85.2401
+762;Vinh Phuc;Vietnam;35.1264;33.4299
+763;Vinh Phuc;Vietnam;19.1959;109.7453
+764;Vinh Phuc;Vietnam;3.2028;73.2207
+765;Vinh Phuc;Vietnam;4.210484;101.975766
+766;Vinh Phuc;Vietnam;21.9162;95.956
+767;NSW;Australia;47.14;9.55
+768;NSW;Australia;45.1;15.2
+769;NSW;Australia;32.9711;119.455
+770;Victoria;Australia;36.3427;118.1498
+771;NSW;Australia;-23.4425;-58.4438
+772;Queensland;Australia;44.682;-63.7443
+773;Victoria;Australia;-18.665695;35.529562
+774;Victoria;Australia;61.52401;105.318756
+775;Queensland;Australia;33.223191;43.679291
+776;South Australia;Australia;46.1512;14.9955
+777;South Australia;Australia;14.4974;-14.4524
+778;Victoria;Australia;49.8175;15.473
+779;Queensland;Australia;16.265;-61.551
+780;Queensland;Australia;1.6508;10.2679
+781;Queensland;Australia;-8.874217;125.727539
+782;Toronto;Canada;41.20438;74.766098
+783;Toronto;Canada;-31.9505;115.8605
+784;Vancouver;Canada;55.3781;-3.436
+785;Toronto;Canada;47.4116;28.3699
+786;Vancouver;Canada;33.223191;43.679291
+787;Vancouver;Canada;27.6104;111.7088
+788;Vancouver;Canada;41.20438;74.766098
+789;Vancouver;Canada;20.593684;78.96288
+790;Vancouver;Canada;-38.4161;-63.6167
+791;Toronto;Canada;46.8182;8.2275
+792;Vancouver;Canada;12.8628;30.2176
+793;Toronto;Canada;45.9432;24.9668
+794;Preah Sihanouk Province;Cambodia;46.2276;2.2137
+795;Sri Lanka;Sri Lanka;-29.61;28.2336
+796;Bavaria;Germany;26.8154;106.8748
+797;Bavaria;Germany;58.5953;25.0136
+798;Bavaria;Germany;15.1794;39.7823
+799;Bavaria;Germany;;
+800;Bavaria;Germany;46.2276;2.2137
+801;Bavaria;Germany;-11.6455;43.3333
+802;Bavaria;Germany;42.7339;25.4858
+803;Bavaria;Germany;55.1694;23.8813
+804;Frankfurt;Germany;46.8182;8.2275
+805;Frankfurt;Germany;19.1959;109.7453
+806;Bavaria;Germany;64.2823;-135
+807;Bavaria;Germany;41.377491;64.585262
+808;Bavaria;Germany;21.512583;55.923255
+809;Bavaria;Germany;25.025885;-78.035889
+810;Bavaria;Germany;32.427908;53.688046
+811;Bavaria;Germany;40.1824;116.4142
+812;Baden-Wuerttemberg;Germany;-4.0383;21.7587
+813;Tubingen;Germany;41.377491;64.585262
+814;Tubingen;Germany;17.9;-62.8333
+815;Baden-Wuerttemberg;Germany;37.5777;112.2922
+816;North Rhine-Westphalia;Germany;-26.5225;31.4659
+817;North Rhine-Westphalia;Germany;18.2206;-63.0686
+818;North Rhine-Westphalia;Germany;-29.61;28.2336
+819;North Rhine-Westphalia;Germany;-42.8821;147.3272
+820;North Rhine-Westphalia;Germany;13.9094;-60.9789
+821;North Rhine-Westphalia;Germany;-22.9576;18.4904
+822;North Rhine-Westphalia;Germany;47.14;9.55
+823;North Rhine-Westphalia;Germany;26.820553;30.802498
+824;North Rhine-Westphalia;Germany;60.472;8.4689
+825;North Rhine-Westphalia;Germany;39.0742;21.8243
+826;North Rhine-Westphalia;Germany;49.8175;15.473
+827;North Rhine-Westphalia;Germany;61.8926;-6.9118
+828;North Rhine-Westphalia;Germany;27.5142;90.4336
+829;North Rhine-Westphalia;Germany;42.3154;43.3569
+830;North Rhine-Westphalia;Germany;31.202;121.4491
+831;North Rhine-Westphalia;Germany;20.593684;78.96288
+832;North Rhine-Westphalia;Germany;-20.904305;165.618042
+833;North Rhine-Westphalia;Germany;16.265;-61.551
+834;North Rhine-Westphalia;Germany;51.9194;19.1451
+835;North Rhine-Westphalia;Germany;-33.8688;151.2093
+836;Hamburg;Germany;45.9432;24.9668
+837;Baden-Wuerttemberg;Germany;60.128161;18.643501
+838;Baden-Wuerttemberg;Germany;8.6195;0.8248
+839;Baden-Wuerttemberg;Germany;15.7835;-90.2308
+840;Baden-Wuerttemberg;Germany;9.082;8.6753
+841;Rhineland-Palatinate;Germany;33.93911;67.709953
+842;Bavaria;Germany;42.7339;25.4858
+843;Hesse;Germany;58.5953;25.0136
+844;Baden-Wuerttemberg;Germany;15.870032;100.992541
+845;Baden-Wuerttemberg;Germany;12.5211;-69.9683
+846;Baden-Wuerttemberg;Germany;18.4207;-64.64
+847;Baden-Wuerttemberg;Germany;21.512583;55.923255
+848;Baden-Wuerttemberg;Germany;36.204824;138.252924
+849;North Rhine-Westphalia;Germany;-1.9403;29.8739
+850;UAE;UAE;9.082;8.6753
+851;UAE;UAE;14.6415;-61.0242
+852;UAE;UAE;18.9712;-72.2852
+853;UAE;UAE;41.1129;85.2401
+854;UAE;UAE;18.0708;-63.0501
+855;UAE;UAE;7.54;-5.5471
+856;UAE;UAE;31.24;36.51
+857;UAE;UAE;49.8175;15.473
+858;UAE;UAE;-11.6455;43.3333
+859;UAE;UAE;16.265;-61.551
+860;UAE;UAE;-6.314993;143.95555
+861;UAE;UAE;31.9522;35.2332
+862;UAE;UAE;11.8037;-15.1804
+863;UAE;UAE;7.9465;-1.0232
+864;UAE;UAE;29.1832;120.0934
+865;UAE;UAE;-29.61;28.2336
+866;UAE;UAE;48.0196;66.9237
+867;UAE;UAE;24.2155;-12.8858
+868;UAE;UAE;-40.9006;174.886
+869;UAE;UAE;53.7267;-127.6476
+870;UAE;UAE;64.2823;-135
+871;Hong Kong;Hong Kong;23.685;90.3563
+872;Hong Kong;Hong Kong;12.5211;-69.9683
+873;Hong Kong;Hong Kong;64.8255;-124.8457
+874;Hong Kong;Hong Kong;36.3427;118.1498
+875;Hong Kong;Hong Kong;40.1431;47.5769
+876;Hong Kong;Hong Kong;-12.4634;130.8456
+877;Hong Kong;Hong Kong;18.1096;-77.2975
+878;Hong Kong;Hong Kong;-35.6751;-71.543
+879;Hong Kong;Hong Kong;41.9029;12.4534
+880;Hong Kong;Hong Kong;64.9631;-19.0208
+881;Yau Ma Tei;Hong Kong;31.9522;35.2332
+882;Tsing Yi;Hong Kong;26.0789;117.9874
+883;Kowloon;Hong Kong;31.9522;35.2332
+884;Hong Kong;Hong Kong;4;-53
+885;Kowloon;Hong Kong;24.2155;-12.8858
+886;Kowloon;Hong Kong;61.92411;25.748151
+887;Hong Kong;Hong Kong;56.8796;24.6032
+888;Kowloon;Hong Kong;35.1264;33.4299
+889;Kwun Tong;Hong Kong;32.3078;-64.7505
+890;Kwun Tong;Hong Kong;12.9843;-61.2872
+891;Kwai Chung;Hong Kong;;
+892;Kwai Chung;Hong Kong;23.885942;45.079162
+893;Hong Kong;Hong Kong;3.848;11.5021
+894;Hong Kong;Hong Kong;33.93911;67.709953
+895;Zhuhai;Hong Kong;61.8926;-6.9118
+896;Fo Tan;Hong Kong;53.7098;27.9534
+897;Wan Chai;Hong Kong;56.8796;24.6032
+898;Ngau Chi Wan;Hong Kong;-12.4634;130.8456
+899;Hong Kong;Hong Kong;41.6086;21.7453
+900;Hong Kong;Hong Kong;15.4542;18.7322
+901;Hong Kong;Hong Kong;37.8957;114.9042
+902;Hong Kong;Hong Kong;-30.5595;22.9375
+903;Hong Kong;Hong Kong;9.145;40.4897
+904;Hong Kong;Hong Kong;41.9029;12.4534
+905;Hong Kong;Hong Kong;21.0079;-10.9408
+906;Hong Kong;Hong Kong;-3.3731;29.9189
+907;Hong Kong;Hong Kong;15.7835;-90.2308
+908;Hong Kong;Hong Kong;-12.8275;45.166244
+909;Hong Kong;Hong Kong;44.0935;113.9448
+910;Hong Kong;Hong Kong;21.9162;95.956
+911;Hong Kong;Hong Kong;18.0425;-63.0548
+912;Hong Kong;Hong Kong;24.974;101.487
+913;Hong Kong;Hong Kong;49.8175;15.473
+914;Hong Kong;Hong Kong;-42.8821;147.3272
+915;Hong Kong;Hong Kong;16.265;-61.551
+916;Hong Kong;Hong Kong;36.3427;118.1498
+917;Hong Kong;Hong Kong;40.0691;45.0382
+918;Hong Kong;Hong Kong;-16.2902;-63.5887
+919;Hong Kong;Hong Kong;26.0275;50.55
+920;Hong Kong;Hong Kong;27.614;115.7221
+921;Hong Kong;Hong Kong;52.9399;-73.5491
+922;Hong Kong;Hong Kong;44.0935;113.9448
+923;Hong Kong;Hong Kong;;
+924;Hong Kong;Hong Kong;10.6918;-61.2225
+925;Hong Kong;Hong Kong;14.058324;108.277199
+926;Hong Kong;Hong Kong;53.9333;-116.5765
+927;Hong Kong;Hong Kong;37.5777;112.2922
+928;Hong Kong;Hong Kong;17.607789;8.081666
+929;Hong Kong;Hong Kong;26.0789;117.9874
+930;Hong Kong;Hong Kong;15.870032;100.992541
+931;Hong Kong;Hong Kong;8.460555;-11.779889
+932;Hong Kong;Hong Kong;15.4542;18.7322
+933;Hong Kong;Hong Kong;49.8153;6.1296
+934;Hong Kong;Hong Kong;46.2276;2.2137
+935;Hong Kong;Hong Kong;30.6171;102.7103
+936;Hong Kong;Hong Kong;54.2361;-4.5481
+937;Hong Kong;Hong Kong;9.082;8.6753
+938;Hong Kong;Hong Kong;-18.665695;35.529562
+939;Hong Kong;Hong Kong;15.1794;39.7823
+940;Hong Kong;Hong Kong;46.2276;2.2137
+941;Hong Kong;Hong Kong;46.2276;2.2137
+942;Hong Kong;Hong Kong;31.6927;88.0924
+943;Hong Kong;Hong Kong;29.31166;47.481766
+944;Hong Kong;Hong Kong;-6.314993;143.95555
+945;Hong Kong;Hong Kong;37.5777;112.2922
+946;Hong Kong;Hong Kong;17.607789;8.081666
+947;Hong Kong;Hong Kong;56.8796;24.6032
+948;Hong Kong;Hong Kong;13.9094;-60.9789
+949;Hong Kong;Hong Kong;23.885942;45.079162
+950;Hong Kong;Hong Kong;12.879721;121.774017
+951;Hong Kong;Hong Kong;21.512583;55.923255
+952;Hong Kong;Hong Kong;23.685;90.3563
+953;Hong Kong;Hong Kong;11.55;104.9167
+954;Hong Kong;Hong Kong;4.860416;-58.93018
+955;Hong Kong;Hong Kong;1.373333;32.290275
+956;Hong Kong;Hong Kong;;
+957;Hong Kong;Hong Kong;58.5953;25.0136
+958;Hong Kong;Hong Kong;36.204824;138.252924
+959;Hong Kong;Hong Kong;6.428055;-9.429499
+960;Hong Kong;Hong Kong;44.682;-63.7443
+961;Hong Kong;Hong Kong;42.7339;25.4858
+962;Hong Kong;Hong Kong;64.9631;-19.0208
+963;Hong Kong;Hong Kong;53.7098;27.9534
+964;Hong Kong;Hong Kong;18.7357;-70.1627
+965;Rome;Italy;38.9637;35.2433
+966;Rome;Italy;30.6171;102.7103
+967;Rome;Italy;4.5709;-74.2973
+968;Tyumen;Russia;31.202;121.4491
+969;Zabaikalsky;Russia;14.4974;-14.4524
+970;York;UK;27.614;115.7221
+971;York;UK;26.0789;117.9874
+972;London;UK;21.694;-71.7979
+973;London;UK;-8.874217;125.727539
+974;London;UK;42.602636;20.902977
+975;London;UK;8.6195;0.8248
+976;London;UK;-23.4425;-58.4438
+977;London;UK;53.7609;-98.8139
+978;London;UK;50.8333;4.469936
+979;UK;UK;46.5107;-63.4168
+980;UK;UK;15.1794;39.7823
+981;UK;UK;18.7357;-70.1627
+982;UK;UK;17.0608;-61.7964
+983;London;UK;64.2823;-135
+984;London;UK;41.87194;12.56738
+985;Nortern Ireland;UK;8.460555;-11.779889
+986;UK;UK;23.685;90.3563
+987;UK;UK;45.9432;24.9668
+988;Wales;UK;17.9;-62.8333
+989;UK;UK;-40.9006;174.886
+990;Kerala;India;33.882;113.614
+991;Alappuzha;India;43.7333;7.4167
+992;Kerala;India;-23.4425;-58.4438
+993;Manila;Phillipines;-33.8688;151.2093
+994;Manila;Phillipines;39.3054;117.323
+995;Phillipines;Phillipines;-11.2027;17.8739
+996;Lapland;Finland;6.4238;-66.5897
+997;Canary Islands;Spain;4.210484;101.975766
+998;Mallorca;Spain;21.512583;55.923255
+999;Tenerife;Spain;44.0165;21.0059
+1000;Tenerife;Spain;12.2383;-1.5616
+1001;Barcelona;Spain;60.128161;18.643501
+1002;Madrid;Spain;15.870032;100.992541
+1003;Castellon;Spain;46.1512;14.9955
+1004;Madrid;Spain;-13.133897;27.849332
+1005;Tenerife;Spain;25.3548;51.1839
+1006;Tenerife;Spain;4.210484;101.975766
+1007;Barcelona;Spain;6.877;31.307
+1008;Andalusia;Spain;-13.2543;34.3015
+1009;Tenerife;Spain;6.428055;-9.429499
+1010;Valencia;Spain;18.9712;-72.2852
+1011;Madrid;Spain;-16.2902;-63.5887
+1012;Madrid;Spain;12.9843;-61.2872
+1013;Barcelona;Spain;-18.665695;35.529562
+1014;Castile and Leon;Spain;-13.133897;27.849332
+1015;Castile and Leon;Spain;-22.3285;24.6849
+1016;Valencia;Spain;48.0196;66.9237
+1017;Valencia;Spain;20.593684;78.96288
+1018;Valencia;Spain;46.8852;-56.3159
+1019;Valencia;Spain;46.8625;103.8467
+1020;Valencia;Spain;8.6195;0.8248
+1021;Valencia;Spain;-22.9576;18.4904
+1022;Andalusia;Spain;26.3351;17.228331
+1023;Andalusia;Spain;13.1939;-59.5432
+1024;Andalusia;Spain;37.5777;112.2922
+1025;Andalusia;Spain;41.9029;12.4534
+1026;Andalusia;Spain;31.8257;117.2264
+1027;Andalusia;Spain;21.9162;95.956
+1028;Andalusia;Spain;-9.19;-75.0152
+1029;Madrid;Spain;12.8628;30.2176
+1030;Zaragoza;Spain;10.6918;-61.2225
+1031;Jonkoping;Sweden;-1.9403;29.8739
+1032;Belgium;Belgium;19.3133;-81.2546
+1033;Egypt;Egypt;12.8628;30.2176
+1034;Qom;Iran;12.2383;-1.5616
+1035;Qom;Iran;53.1355;-57.6604
+1036;Qom;Iran;54.2361;-4.5481
+1037;Qom;Iran;32.3078;-64.7505
+1038;Araq;Iran;35.7518;104.2861
+1039;Qom;Iran;32.3078;-64.7505
+1040;Qom;Iran;23.3417;113.4244
+1041;Qom;Iran;27.614;115.7221
+1042;Qom;Iran;11.8037;-15.1804
+1043;Qom;Iran;35.1264;33.4299
+1044;Qom;Iran;15.7835;-90.2308
+1045;Qom;Iran;31.046051;34.851612
+1046;Tehran;Iran;19.85627;102.495496
+1047;Tehran;Iran;29.1832;120.0934
+1048;Tehran;Iran;-18.766947;46.869107
+1049;Tehran;Iran;-0.0236;37.9062
