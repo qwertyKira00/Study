@@ -1,0 +1,19 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{Введение}{2}%
+\contentsline {chapter}{\numberline {1}Аналитическая часть}{4}%
+\contentsline {section}{\numberline {1.1}Стандартный алгоритм умножения матриц}{4}%
+\contentsline {section}{\numberline {1.2}Умножение матриц по Винограду}{5}%
+\contentsline {section}{\numberline {1.3}Вывод}{6}%
+\contentsline {chapter}{\numberline {2}Конструкторская часть}{7}%
+\contentsline {section}{\numberline {2.1}Схемы алгоритмов}{7}%
+\contentsline {section}{\numberline {2.2}Вывод}{7}%
+\contentsline {chapter}{\numberline {3}Технологическая часть}{13}%
+\contentsline {section}{\numberline {3.1}Выбор языка программирования}{13}%
+\contentsline {section}{\numberline {3.2}Сведения о модулях программы}{13}%
+\contentsline {section}{\numberline {3.3}Тесты}{16}%
+\contentsline {section}{\numberline {3.4}Вывод}{16}%
+\contentsline {chapter}{\numberline {4}Исследовательская часть}{17}%
+\contentsline {section}{\numberline {4.1}Результат замеров времени выполнения всех алгоритмов}{17}%
+\contentsline {section}{\numberline {4.2}Сравнительный анализ алгоритмов}{17}%
+\contentsline {section}{\numberline {4.3}Вывод}{18}%
+\contentsline {chapter}{Заключение}{21}%
