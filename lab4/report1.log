@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.5)  14 OCT 2020 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.5)  15 OCT 2020 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,6 +841,15 @@ LaTeX Warning: Label `some-code' multiply defined.
 
 LaTeX Warning: Label `some-code' multiply defined.
 
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
 )
 \openout1 = `report1.aux'.
 
@@ -900,139 +909,245 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
+ [1
+
+])
 \tf@toc=\write4
 \openout4 = `report1.toc'.
 
- [1
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
+ [2]
+Overfull \hbox (2.38678pt too wide) in paragraph at lines 67--69
+\T2A/cmr/m/n/12 ди-мым, по-сколь-ку поз-во-ля-ет мак-си-маль-но эф-фек-тив-но и
+с-поль-зо-вать воз-
  []
 
-[2
+[3
 
-]
-Overfull \hbox (9.07887pt too wide) in paragraph at lines 95--96
-[]\T2A/cmr/m/n/12 Транспонирование мат-ри-цы. При транс-по-ни-ро-ва-нии у мат-р
-и-цы стро-
- []
-
-[3]
+] [4]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 
-Package xcolor Warning: Incompatible color definition on input line 110.
+Package xcolor Warning: Incompatible color definition on input line 81.
 
-<pics/matrix_mult.png, id=30, 471.7625pt x 414.54875pt>
+<pics/matrix_mult.png, id=28, 471.7625pt x 414.54875pt>
 File: pics/matrix_mult.png Graphic file (type png)
 <use pics/matrix_mult.png>
-Package pdftex.def Info: pics/matrix_mult.png  used on input line 116.
-(pdftex.def)             Requested size: 195.0pt x 171.35136pt.
-[4
+Package pdftex.def Info: pics/matrix_mult.png  used on input line 127.
+(pdftex.def)             Requested size: 283.05968pt x 248.73116pt.
+[5
 
- <./pics/matrix_mult.png>] [5] [6]
+]
+
+./report1.tex:132: Package inputenc Error: Unicode character в‰€ (U+2248)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 ...‹СЃРѕРєСѓСЋ С‚СЂСѓРґРѕРµРјРєРѕСЃС‚СЊ (в‰€
+                                                   13NMQ). РЎР»РµРґРѕРІР°С‚Р...
+
+? 
+[6 <./pics/matrix_mult.png>] [7]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
-Package xcolor Warning: Incompatible color definition on input line 202.
+Package xcolor Warning: Incompatible color definition on input line 150.
 
-<schema/StandMtr.png, id=46, 512.91624pt x 1024.82875pt>
+
+Overfull \hbox (10.9821pt too wide) in paragraph at lines 154--154
+|[]\T2A/cmr/bx/n/17.28 Стандартный ал-го-ритм про-из-ве-де-ния мат-
+ []
+
+<schema/StandMtr.png, id=48, 512.91624pt x 1024.82875pt>
 File: schema/StandMtr.png Graphic file (type png)
 <use schema/StandMtr.png>
-Package pdftex.def Info: schema/StandMtr.png  used on input line 210.
+Package pdftex.def Info: schema/StandMtr.png  used on input line 159.
 (pdftex.def)             Requested size: 307.75212pt x 614.902pt.
+[8
 
-LaTeX Warning: Float too large for page by 93.23476pt on input line 213.
-
-<schema/Win1.png, id=47, 624.3325pt x 715.67375pt>
-File: schema/Win1.png Graphic file (type png)
-<use schema/Win1.png>
-Package pdftex.def Info: schema/Win1.png  used on input line 219.
-(pdftex.def)             Requested size: 499.46667pt x 572.53978pt.
-
-Overfull \hbox (109.46667pt too wide) in paragraph at lines 219--220
- [][] 
- []
+]
+Overfull \vbox (66.402pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Float too large for page by 51.53905pt on input line 222.
-
-<schema/Win2.png, id=48, 368.37625pt x 671.50874pt>
-File: schema/Win2.png Graphic file (type png)
-<use schema/Win2.png>
-Package pdftex.def Info: schema/Win2.png  used on input line 226.
-(pdftex.def)             Requested size: 294.70139pt x 537.20773pt.
-
-LaTeX Warning: Float too large for page by 16.207pt on input line 229.
-
-<schema/WinOpt1.png, id=49, 670.505pt x 714.67pt>
-File: schema/WinOpt1.png Graphic file (type png)
-<use schema/WinOpt1.png>
-Package pdftex.def Info: schema/WinOpt1.png  used on input line 235.
-(pdftex.def)             Requested size: 536.40474pt x 571.73677pt.
-
-Overfull \hbox (146.40474pt too wide) in paragraph at lines 235--236
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 65.23604pt on input line 238.
-
-<schema/WinOpt2.png, id=50, 338.26375pt x 664.4825pt>
-File: schema/WinOpt2.png Graphic file (type png)
-<use schema/WinOpt2.png>
-Package pdftex.def Info: schema/WinOpt2.png  used on input line 242.
-(pdftex.def)             Requested size: 270.61136pt x 531.58672pt.
-
-LaTeX Warning: Float too large for page by 25.08598pt on input line 245.
-
-[7
-
-] [8 <./schema/StandMtr.png>] [9 <./schema/Win1.png>] [10 <./schema/Win2.png>] 
-[11 <./schema/WinOpt1.png>] [12 <./schema/WinOpt2.png>]
+[9 <./schema/StandMtr.png>] [10]
+<schema/ParRowMain.png, id=59, 149.55875pt x 864.22874pt>
+File: schema/ParRowMain.png Graphic file (type png)
+<use schema/ParRowMain.png>
+Package pdftex.def Info: schema/ParRowMain.png  used on input line 170.
+(pdftex.def)             Requested size: 74.77919pt x 432.11331pt.
+ [11 <./schema/ParRowMain.png>]
+<schema/ParRowWork.png, id=64, 368.37625pt x 822.07124pt>
+File: schema/ParRowWork.png Graphic file (type png)
+<use schema/ParRowWork.png>
+Package pdftex.def Info: schema/ParRowWork.png  used on input line 178.
+(pdftex.def)             Requested size: 221.02744pt x 493.24655pt.
+ [12 <./schema/ParRowWork.png>]
+<schema/ParColMain.png, id=70, 149.55875pt x 864.22874pt>
+File: schema/ParColMain.png Graphic file (type png)
+<use schema/ParColMain.png>
+Package pdftex.def Info: schema/ParColMain.png  used on input line 189.
+(pdftex.def)             Requested size: 74.77919pt x 432.11331pt.
+ [13 <./schema/ParColMain.png>]
+<schema/ParColWork.png, id=75, 368.37625pt x 822.07124pt>
+File: schema/ParColWork.png Graphic file (type png)
+<use schema/ParColWork.png>
+Package pdftex.def Info: schema/ParColWork.png  used on input line 197.
+(pdftex.def)             Requested size: 221.02744pt x 493.24655pt.
+ [14 <./schema/ParColWork.png>]
+[15]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 
-Package xcolor Warning: Incompatible color definition on input line 251.
+Package xcolor Warning: Incompatible color definition on input line 204.
 
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-262.
+216.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+) [16
+
+]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-270.
+241.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [13
+) [17] [18]
+[19] [20] [21]
 
-] [14]
-[15] [16]
+./report1.tex:421: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.421 	\caption
+               {РўР°Р±Р»РёС†Р° 3.1: РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ СЂРµР·СѓР»СЊС‚Р...
+
+? 
+
+./report1.tex:443: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.443 	\caption
+               {РўР°Р±Р»РёС†Р° 3.2: РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ СЂРµР·СѓР»СЊС‚Р...
+
+? 
+[22] [23]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
 
-Package xcolor Warning: Incompatible color definition on input line 380.
+Package xcolor Warning: Incompatible color definition on input line 467.
 
-<pics/Time.png, id=93, 641.39626pt x 569.12625pt>
-File: pics/Time.png Graphic file (type png)
-<use pics/Time.png>
-Package pdftex.def Info: pics/Time.png  used on input line 390.
-(pdftex.def)             Requested size: 234.00238pt x 207.62949pt.
-<pics/Time1.png, id=94, 641.39626pt x 566.115pt>
-File: pics/Time1.png Graphic file (type png)
-<use pics/Time1.png>
-Package pdftex.def Info: pics/Time1.png  used on input line 399.
-(pdftex.def)             Requested size: 312.00119pt x 275.38608pt.
-[17
 
-] [18 <./pics/Time.png>] [19 <./pics/Time1.png>] [20] (./report1.bbl
-[21
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
-[]\T2A/cmr/m/n/12 random ^^V Generate pseudo-random numbers.
+Overfull \hbox (0.63574pt too wide) in paragraph at lines 479--479
+\T2A/cmr/bx/n/17.28 по-сле-до-ва-тель-ной и па-рал-лель-ной ре-а-ли-
  []
 
-) [22
+[24
+
+]
+<pics/Parallel1.png, id=117, 500.87125pt x 357.335pt>
+File: pics/Parallel1.png Graphic file (type png)
+<use pics/Parallel1.png>
+Package pdftex.def Info: pics/Parallel1.png  used on input line 487.
+(pdftex.def)             Requested size: 300.52505pt x 214.40265pt.
+
+
+./report1.tex:496: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 	\caption
+               {РўР°Р±Р»РёС†Р° 4.1: Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРґРЅРѕ...
+
+? 
+[25 <./pics/Parallel1.png>]
+<pics/Parallel2.png, id=122, 605.26125pt x 461.725pt>
+File: pics/Parallel2.png Graphic file (type png)
+<use pics/Parallel2.png>
+Package pdftex.def Info: pics/Parallel2.png  used on input line 520.
+(pdftex.def)             Requested size: 363.15953pt x 277.03714pt.
+ [26] [27 <./pics/Parallel2.png>]
+Overfull \hbox (0.63574pt too wide) in paragraph at lines 528--528
+\T2A/cmr/bx/n/17.28 по-сле-до-ва-тель-ной и па-рал-лель-ной ре-а-ли-
+ []
+
+<pics/Parallel3.png, id=130, 565.11125pt x 451.6875pt>
+File: pics/Parallel3.png Graphic file (type png)
+<use pics/Parallel3.png>
+Package pdftex.def Info: pics/Parallel3.png  used on input line 535.
+(pdftex.def)             Requested size: 339.06937pt x 271.01459pt.
+[28 <./pics/Parallel3.png>]
+
+./report1.tex:544: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.544 	\caption
+               {РўР°Р±Р»РёС†Р° 4.2: Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРґРЅРѕ...
+
+? 
+<pics/Parallel4.png, id=135, 542.025pt x 456.70625pt>
+File: pics/Parallel4.png Graphic file (type png)
+<use pics/Parallel4.png>
+Package pdftex.def Info: pics/Parallel4.png  used on input line 568.
+(pdftex.def)             Requested size: 325.2175pt x 274.02585pt.
+[29] [30 <./pics/Parallel4.png>] [31
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
+[]\T2A/cmr/m/n/12 Visual Studio [Элек-трон-ный ре-сурс], ре-жим до-сту-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
+\T2A/cmr/m/n/12 па:https://visualstudio.microsoft.com/ru/ (да-та об-ра-ще-ния:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+[]\T2A/cmr/m/n/12 Thread.Join Ме-тод [Элек-трон-ный ре-сурс], ре-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+\T2A/cmr/m/n/12 жим доступа:https://docs.microsoft.com/ru-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+\T2A/cmr/m/n/12 ru/dotnet/api/system.threading.thread.join?view=netcore-3.1 (да
+-та
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
+[]\T2A/cmr/m/n/12 Документация по C# [Элек-трон-ный ре-сурс], ре-жим
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+[]\T2A/cmr/m/n/12 Random Класс [Элек-трон-ный ре-сурс], ре-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+\T2A/cmr/m/n/12 жим доступа:https://docs.microsoft.com/ru-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+\T2A/cmr/m/n/12 ru/dotnet/api/system.random?view=netcore-3.1 (да-та об-ра-ще-ни
+я:
+ []
+
+[32
 
 ] (./report1.aux)
 
@@ -1040,15 +1155,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26687 strings out of 480608
- 686370 string characters out of 5903631
- 1172694 words of memory out of 5000000
- 42144 multiletter control sequences out of 15000+600000
- 549676 words of font info for 52 fonts, out of 8000000 for 9000
+ 26704 strings out of 480608
+ 686826 string characters out of 5903631
+ 1122553 words of memory out of 5000000
+ 42164 multiletter control sequences out of 15000+600000
+ 547924 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,9n,98p,1178b,1695s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
+ 68i,9n,98p,1754b,1813s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
 usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
@@ -1061,18 +1176,15 @@ xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2020/tex
-mf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2020/texmf
--dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2020/texmf-d
-ist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2020/texmf-dis
-t/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2020/texmf-dist/
-fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on report1.pdf (23 pages, 950881 bytes).
+20/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on report1.pdf (33 pages, 669900 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 209 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
