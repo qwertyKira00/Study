@@ -1,6 +1,0 @@
-/Users/anastasia/Desktop/5Сем/АналАлг/lab4/Parallel/Parallel/bin/Debug/Parallel.exe
-/Users/anastasia/Desktop/5Сем/АналАлг/lab4/Parallel/Parallel/bin/Debug/Parallel.pdb
-/Users/anastasia/Desktop/5Сем/АналАлг/lab4/Parallel/Parallel/obj/Debug/Parallel.csprojAssemblyReference.cache
-/Users/anastasia/Desktop/5Сем/АналАлг/lab4/Parallel/Parallel/obj/Debug/Parallel.csproj.CoreCompileInputs.cache
-/Users/anastasia/Desktop/5Сем/АналАлг/lab4/Parallel/Parallel/obj/Debug/Parallel.exe
-/Users/anastasia/Desktop/5Сем/АналАлг/lab4/Parallel/Parallel/obj/Debug/Parallel.pdb

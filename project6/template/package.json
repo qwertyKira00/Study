@@ -1,0 +1,17 @@
+{
+  "name": "project6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task6_1.js",
+  "scripts": {
+    "start": "node task6_1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "hbs": "^4.1.1"
+  }
+}

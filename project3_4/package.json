@@ -1,0 +1,18 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task3.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node task3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

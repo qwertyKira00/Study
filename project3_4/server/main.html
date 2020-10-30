@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<title>Выбор задания</title>
+	<style>
+		.colortextInput {
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, rgb(0, 0, 0)));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+			padding: 5px 100px;
+			font-size: 20px;
+			text-align: center;
+			color: rgb(13, 202, 38);
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #666;
+		}
+
+		.colortextSubmit {
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, rgb(0, 0, 0)));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+			padding: 5px 30px;
+			font-size: 20px;
+			color: rgb(13, 202, 38);
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #666;
+		}
+
+		body {
+			font-family: Geneva, Arial, Helvetica, sans-serif;
+			text-align: center;
+			padding: 50px;
+			/* Цвет фона */
+			background: black;
+		}
+
+		h1 {
+			color: rgb(0, 0, 0);
+		}
+
+		h2 {
+			color: rgb(13, 202, 38);
+		}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<!-- <h1 class="header-title">Выбор задания</h1> -->
+		<br>
+	</div>
+
+	<div id="main">
+
+		<h2>#1</h2>
+		<form method="GET" action="/compare/">
+			<p><button type="submit" class="colortextSubmit">Найти наибольшее среди трех чисел</button></p>
+
+		</form>
+
+		<h2>#2</h2>
+		<form method="GET" action="/array/">
+			<p><button type="submit" class="colortextSubmit">Получить значение массива по индексу</button></p>
+
+		</form>
+
+		<h2>#3</h2>
+		<form method="GET" action="/markup/">
+			<p><button type="submit" class="colortextInput">Получить разметку</button></p>
+
+		</form>
+
+		<h2>#4</h2>
+		<form method="GET" action="/interval/">
+			<p><button type="submit" class="colortextInput">Получить массив чисел</button></p>
+
+		</form>
+
+	</div>
+	<p><img class="img" src="https://media.giphy.com/media/AOSwwqVjNZlDO/giphy.gif" alt="Per aspera ad astra!"
+			width="500" height="300" align="left"></p>
+	<p><img class="img" src="https://media.giphy.com/media/AOSwwqVjNZlDO/giphy.gif" alt="Scientia potentia est!"
+			width="500" height="300" align="right"></p>
+</body>
+
+</html>

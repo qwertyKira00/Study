@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Grand Theft Auto V", 
+		"description": "Мультиплатформенная компьютерная игра в жанре actionadventure с открытым миром, разработанная компанией Rockstar North и изданная компанией Rockstar Games",
+		"restriction": "18"
+	},
+
+	{
+		"name": "Minecraft ", 
+		"description": "Компьютерная инди-игра в жанре песочницы, разработанная шведским программистом Маркусом Перссоном и выпущенная его компанией Mojang AB", 		"restriction": "6"
+	},
+
+	{
+		"name": "The Witcher 3: Wild Hunt", 
+		"description": " Мультиплатформенная компьютерная игра в жанре action/RPG, разработанная польской студией CD Projekt RED по мотивам серии романов «Ведьмак» польского писателя Анджея Сапковского, выпущенная в 2015 году для Windows, PlayStation 4 и Xbox One", 
+		"restriction": "18"
+	},
+
+	{
+		"name": "Call of Duty 4: Modern Warfare", 
+		"description": "Мультиплатформенная компьютерная игра, в жанре шутера от первого лица, разработанная американской компанией Infinity Ward и изданная Activision", 
+		"restriction": "18"
+	},
+
+	{
+		"name": "The Sims 4", 
+		"description": " Однопользовательская компьютерная игра в жанре симулятора жизни, четвёртая по счёту из серии игр The Sims, разработанная компанией Maxis и издаваемая Electronic Arts для Windows и macOS", 
+		"restriction": "16"
+	},
+
+	{
+		"name": "Need for Speed: Most Wanted", 
+		"description": "Компьютерная игра серии Need for Speed в жанре аркадной автогонки, разработанная студией EA Canada и изданная компанией Electronic Arts для консолей, персональных компьютеров и мобильных телефонов в 2005 году", 		"restriction": "12"
+	}
+]

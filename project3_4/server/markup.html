@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../task3.css">
+	<title>Получить разметку</title>
+	<style>
+		.colortextInput {
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, rgb(0, 0, 0)));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+			padding: 5px 10px;
+			font-size: 20px;
+			text-align: center;
+			color: rgb(13, 202, 38);
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #666;
+		}
+
+		.colortextSubmit {
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, rgb(0, 0, 0)));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+			padding: 5px 40px;
+			font-size: 20px;
+			color: rgb(13, 202, 38);
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #666;
+		}
+
+		body {
+			font-family: Geneva, Arial, Helvetica, sans-serif;
+			text-align: center;
+			padding: 50px;
+			/* Цвет фона */
+			background: black;
+		}
+
+		h1 {
+			color: rgb(0, 0, 0);
+		}
+
+		h2 {
+			color: rgb(13, 202, 38);
+		}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<!-- <h1 class="header-title">Разметка</h1> -->
+	</div>
+
+	<div id="main">
+		<form method="GET" action="/markup/generate">
+			<h2>
+				<p>Введите поля</p>
+				<h2>
+					<input name="fields" spellcheck="false" autocomplete="off" class="colortextInput">
+					<p>Введите адрес</p>
+					<input name="address" spellcheck="false" autocomplete="off" class="colortextInput">
+					<br>
+					<br>
+					<input type="submit" value="Получить разметку" class="colortextSubmit">
+		</form>
+	</div>
+	<p><img class="img" src="https://media.giphy.com/media/AOSwwqVjNZlDO/giphy.gif" alt="Per aspera ad astra!"
+			width="500" height="300" align="left"></p>
+	<p><img class="img" src="https://media.giphy.com/media/AOSwwqVjNZlDO/giphy.gif" alt="Scientia potentia est!"
+			width="500" height="300" align="right"></p>
+
+
+</body>
+
+</html>

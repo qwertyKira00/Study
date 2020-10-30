@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Компьютерные игры</title>
+</head>
+
+<body>
+
+    <h2>
+        {{descriptionValue}}
+    </h2>
+
+    {{#each gamesArray}}
+    <div style="background: green; margin-bottom: 15px; padding: 8px;"></div>
+    Название: {{this.name}}
+    <br>
+    Описание: {{this.description}}
+    <br>
+    Возрастное ограничение: {{this.restriction}}
+    </div>
+    {{/each}}
+
+    <p><img class="img" src="https://media.giphy.com/media/AOSwwqVjNZlDO/giphy.gif" alt="Per aspera ad astra!"
+            width="1000" height="300" align="center"></p>
+</body>
+
+</html>

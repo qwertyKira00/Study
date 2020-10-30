@@ -1,0 +1,7 @@
+[
+    "qwrt",
+    "aeooo",
+    "cvba",
+    "oooo",
+    "ct"
+]

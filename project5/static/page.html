@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<h1>Контакты</h1>
+
+	<p>Почтовый адрес</p>
+	<input id="field-first" type="text" spellcheck="false" autocomplete="off">
+
+	<p>Фамилия</p>
+	<input id="field-second" type="text" spellcheck="false" autocomplete="off">
+
+	<p>Мобильный номер</p>
+	<input id="field-third" type="text" spellcheck="false" autocomplete="off">
+
+	<br>
+	<br>
+
+	<div id="add-contact-btn" class="btn-class">Добавить информацию о пользователе</div>
+
+	<br>
+	<br>
+
+	<h1 id="result-label"></h1>
+
+	<br>
+	<br>
+
+	<h2>Получить информацию</h2>
+	<form method="GET" action="/get_info/">
+		<p><button type="submit">Получить</button></p>
+	</form>
+
+	<script src="/code_post.js"></script>
+</body>
+
+</html>
