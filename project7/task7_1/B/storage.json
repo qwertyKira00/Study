@@ -1,0 +1,24 @@
+[
+    {
+        "stock_name": "My",
+        "car_array": [
+            "bmw",
+            "Lexus"
+        ]
+    },
+    {
+        "stock_name": "my2",
+        "car_array": [
+            "bmw",
+            "bmw2"
+        ]
+    },
+    {
+        "stock_name": "my3",
+        "car_array": [
+            "bmw",
+            "bmw2",
+            "bmw3"
+        ]
+    }
+]

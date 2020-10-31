@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Audi",
+        "price": "4 450 500"
+    },
+    {
+        "type": "Lexus",
+        "price": "4 333 000"
+    },
+    {
+        "type": "BMW X5",
+        "price": "5 510 000"
+    },
+    {
+        "type": "Nissan X Trail",
+        "price": "1 100 000"
+    }
+]

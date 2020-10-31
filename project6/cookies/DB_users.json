@@ -1,0 +1,14 @@
+[
+	{
+		"login": "KiraSan", 
+		"password": "qwerty",
+		"hobby": "programming",
+		"age": 20
+	},
+	{
+		"login": "123Wolf", 
+		"password": "1234567",
+		"hobby": "sport",
+		"age": 25
+	}
+]

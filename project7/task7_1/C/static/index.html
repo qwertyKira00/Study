@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Страница</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<h1>Добавить информацию о новой машине</h1>
+
+	<form method="GET" action="/set_info_car/">
+		<p>Введите тип машины</p>
+		<input name="field_type_car" id="field-type-car" type="text" spellcheck="false" autocomplete="off">
+
+		<p>Введите цену данной модели</p>
+		<input name="field_price_car" id="field-price-car" type="text" spellcheck="false" autocomplete="off">
+
+		<br>
+		<br>
+
+		<h2>Добавить информацию</h2>
+		<p><button type="submit">Добавить</button></p>
+	</form>
+
+
+	<h1>Получить информацию о машине</h1>
+
+	<form method="GET" action="/get_info_car/">
+		<p>Введите тип машины</p>
+		<input name="field_type_car_find" id="field-type-car-find-type-car" type="text" spellcheck="false"
+			autocomplete="off">
+
+		<h2>Получить информацию</h2>
+		<p><button type="submit">Получить</button></p>
+	</form>
+
+	<h1>Добавить информацию о новом складе</h1>
+
+	<form method="GET" action="/set_info_stock/">
+		<p>Введите название склада</p>
+		<input name="field_stock_name" type="text" spellcheck="false" autocomplete="off">
+
+		<p>Введите массив названий машин через пробел</p>
+		<input name="field_car_array" type="text" spellcheck="false" autocomplete="off">
+
+		<br>
+		<br>
+
+		<h2>Добавить информацию</h2>
+		<p><button type="submit">Добавить</button></p>
+	</form>
+
+	<h1>Получить информацию о складе</h1>
+
+	<form method="GET" action="/get_info_stock/">
+		<p>Введите название склада</p>
+		<input name="field_name_stock_find" type="text" spellcheck="false" autocomplete="off">
+
+		<h2>Получить информацию</h2>
+		<p><button type="submit">Получить</button></p>
+	</form>
+
+
+</body>
+
+</html>
