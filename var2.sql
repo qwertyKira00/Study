@@ -223,3 +223,41 @@ CREATE TABLE IF NOT EXISTS WT_CUST(
     id_customer INT,
     FOREIGN KEY (id_customer) REFERENCES customer(id)
 );
+
+SELECT fio
+FROM executor E JOIN WT_EXEC ON WT_EXEC.id_executor = E.id
+JOIN work_type WT ON WT_EXEC.id_work = WT.id;
+
+--[Предикат сравнения] Получить список исполнителей, чей стаж работы больше 2
+SELECT *
+FROM executor
+WHERE experience > 2;
+
+--[Оконная функция] Получить таблицу с дополнительным
+--атрибутом MAX_LAB_Costs, который содержит
+-- максимальные трудозатраты
+--для определенной группы изделия (группировка по имени работы)
+SELECT name,
+       labor_costs,
+       MAX(labor_costs) OVER (PARTITION BY name) AS MAX_LAB_Costs,
+       equipment
+FROM work_type
+
+
+CREATE OR REPLACE PROCEDURE ind(DB_name VARCHAR, table_name VARCHAR)
+AS '
+DECLARE
+    elem RECORD;
+BEGIN
+    FOR elem IN
+        SELECT *
+        FROM pg_index JOIN pg_class ON pg_index.indrelid = pg_class.oid
+        WHERE relname = table_name
+    LOOP
+            RAISE NOTICE ''elem = % '', elem;
+    END LOOP;
+END;
+' LANGUAGE plpgsql;
+
+CALL ind('RK_var', 'exchange_operation');
+
