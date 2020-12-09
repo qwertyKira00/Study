@@ -1,0 +1,24 @@
+Мы можем интегрировать Postgres с Python, используя модуль psycopg2. psycopg2 - это адаптер базы данных Postgres для Python. Чтобы использовать этот модуль, вы должны сначала установить его. Это можно сделать с помощью команды pip, как показано ниже:
+
+$ pip3 install psycopg2
+Путь к pg_config: /usr/local/Cellar/libpq/13.1/bin
+Нужно добавить путь к pg_config в PATH:
+PATH=$PATH:/usr/local/Cellar/libpq/13.1/bin
+(Проблема с установкой на macOS Mojave.
+Возможное решение: sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+Источник: https://github.com/psycopg/psycopg2/issues/903)
+
+ИЛИ
+
+$ pip3 install psycopg2-binary
+(For most operating systems, the quickest way to install Psycopg is using the wheel package available on PyPI:)
+
+Подключение к базе данных
+
+Чтобы подключиться к вашей базе данных, вы должны сначала создать объект подключения, представляющий базу данных. Затем вы должны создать объект курсора, чтобы помочь вам в выполнении ваших операторов SQL.
+
+Создание таблицы
+
+Чтобы создать таблицу Postgres в Python, мы используем оператор SQL CREATE TABLE. Этот запрос должен быть выполнен после установления соединения с базой данных. Мы также создаем объект курсора, вызывая метод cursor(), который принадлежит объекту connection. Этот объект cursor используется для фактического выполнения ваших команд.
+
+Затем мы вызываем метод execute() объекта cursor, чтобы помочь нам в создании таблицы. Наконец, нам нужно зафиксировать и закрыть соединение. «Фиксация» соединения говорит драйверу о необходимости посылать команды в базу данных.
