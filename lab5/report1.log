@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.5)  11 DEC 2020 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.5)  11 DEC 2020 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,58 +961,59 @@ File: time.png Graphic file (type png)
 <use time.png>
 Package pdftex.def Info: time.png  used on input line 320.
 (pdftex.def)             Requested size: 312.00119pt x 257.83687pt.
-<res.png, id=65, 311.1625pt x 465.74pt>
-File: res.png Graphic file (type png)
-<use res.png>
-Package pdftex.def Info: res.png  used on input line 336.
-(pdftex.def)             Requested size: 234.00238pt x 350.24931pt.
 [13
 
-] [14 <./time.png>] [15 <./res.png>] [16
+]
+<res.png, id=69, 311.1625pt x 465.74pt>
+File: res.png Graphic file (type png)
+<use res.png>
+Package pdftex.def Info: res.png  used on input line 331.
+(pdftex.def)             Requested size: 234.00238pt x 350.24931pt.
+ [14 <./time.png>] [15 <./res.png>] [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 []\T2A/cmr/m/n/12 Visual Studio [Ёлек-трон-ный ре-сурс], ре-жим до-сту-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 \T2A/cmr/m/n/12 па:https://visualstudio.microsoft.com/ru/ (да-та об-ра-ще-ни€:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 []\T2A/cmr/m/n/12 ƒокументаци€ по C# [Ёлек-трон-ный ре-сурс], ре-жим
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 []\T2A/cmr/m/n/12 Random  ласс [Ёлек-трон-ный ре-сурс], ре-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 \T2A/cmr/m/n/12 жим доступа:https://docs.microsoft.com/ru-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 \T2A/cmr/m/n/12 ru/dotnet/api/system.random?view=netcore-3.1 (да-та об-ра-ще-ни
 €:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 []\T2A/cmr/m/n/12  онвейерна€ ор-га-ни-за-ци€ [Ёлек-трон-ный ре-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 \T2A/cmr/m/n/12 сурс], ре-жим доступа:https://docs.microsoft.com/ru-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 \T2A/cmr/m/n/12 ru/dotnet/api/system.random?view=netcore-3.1 (да-та об-ра-ще-ни
 €:
  []
@@ -1031,7 +1032,7 @@ Here is how much of TeX's memory you used:
  42111 multiletter control sequences out of 15000+600000
  547579 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,98p,963b,1817s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,6n,98p,991b,1817s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
@@ -1046,7 +1047,7 @@ ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on report1.pdf (18 pages, 624929 bytes).
+Output written on report1.pdf (18 pages, 625373 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
