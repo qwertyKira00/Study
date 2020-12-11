@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.5)  11 DEC 2020 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.5)  11 DEC 2020 19:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -926,11 +926,11 @@ Overfull \hbox (1.24072pt too wide) in paragraph at lines 90--91
 
 Package xcolor Warning: Incompatible color definition on input line 108.
 
-<MainThread.png, id=29, 448.67625pt x 611.28375pt>
+<MainThread.png, id=29, 473.77pt x 676.5275pt>
 File: MainThread.png Graphic file (type png)
 <use MainThread.png>
 Package pdftex.def Info: MainThread.png  used on input line 117.
-(pdftex.def)             Requested size: 269.20782pt x 366.77307pt.
+(pdftex.def)             Requested size: 284.26419pt x 405.91962pt.
 [5
 
 ] [6 <./MainThread.png>]
@@ -1047,7 +1047,7 @@ ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on report1.pdf (18 pages, 625373 bytes).
+Output written on report1.pdf (18 pages, 643327 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
