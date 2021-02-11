@@ -193,7 +193,6 @@ pm_start:
         iret
     except_1 endp
 
-;
     except_13 proc uses eax
         pop eax
         iret
